@@ -1,0 +1,43 @@
+{
+    "builtin": {
+        "color": {
+            "primary": {
+                "primary_1": {
+                    "value": "#f3fdfd"
+                },
+                "primary_2": {
+                    "value": "#daf6f3"
+                },
+                "primary_3": {
+                    "value": "#d0f8f3"
+                },
+                "primary_6": {
+                    "value": "#50a497"
+                },
+                "primary_7": {
+                    "value": "#4b9590"
+                },
+                "primary_8": {
+                    "value": "#168a7e"
+                },
+                "primary_9": {
+                    "value": "#055e55"
+                }
+            },
+            "gradient": {
+                "primary_1_1": {
+                    "value": "#168a7e"
+                },
+                "primary_1_2": {
+                    "value": "#168a7e"
+                },
+                "primary_2_1": {
+                    "value": "#29a798"
+                },
+                "primary_2_2": {
+                    "value": "#29a798"
+                }
+            }
+        }
+    }
+}

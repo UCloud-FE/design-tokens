@@ -1,0 +1,150 @@
+{
+    "builtin": {
+        "color": {
+            "base": {
+                "black": {
+                    "value": "#1c2e64"
+                }
+            },
+            "primary": {
+                "primary_1": {
+                    "value": "#eaf1ff"
+                },
+                "primary_2": {
+                    "value": "#eaf0fd"
+                },
+                "primary_3": {
+                    "value": "#c1d4fa"
+                },
+                "primary_6": {
+                    "value": "#6f9ffa"
+                },
+                "primary_7": {
+                    "value": "#4c7be7"
+                },
+                "primary_8": {
+                    "value": "#3569E2"
+                },
+                "primary_9": {
+                    "value": "#355EB9"
+                }
+            },
+            "gradient": {
+                "primary_1_1": {
+                    "value": "#4c7be7"
+                },
+                "primary_1_2": {
+                    "value": "#4069c6"
+                },
+                "primary_2_1": {
+                    "value": "#4069c6"
+                },
+                "primary_2_2": {
+                    "value": "#2f4a97"
+                }
+            }
+        }
+    },
+    "common": {
+        "color": {
+            "text": {
+                "remark": {
+                    "light": {
+                        "value": "rgba(10,22,51,0.20)"
+                    }
+                }
+            }
+        }
+    },
+    "external": {
+        "ide": {
+            "readonly": {
+                "color": {
+                    "bg": {
+                        "action": {
+                            "value": "rgba(10,22,51,0.12)"
+                        }
+                    }
+                }
+            }
+        },
+        "frame": {
+            "top": {
+                "color": {
+                    "bg": {
+                        "default": {
+                            "value": "{color.base.black}"
+                        },
+                        "hover": {
+                            "value": "{transparent(color.base.environment_reverse,12)}"
+                        }
+                    }
+                }
+            },
+            "logo": {
+                "color": {
+                    "bg": {
+                        "default": {
+                            "value": "linear-gradient(180deg, {color.primary.primary_9} 0%,{color.base.black} 100%)"
+                        }
+                    }
+                }
+            },
+            "sidebar": {
+                "color": {
+                    "bg": {
+                        "default": {
+                            "value": "{color.base.black}"
+                        },
+                        "active": {
+                            "value": "{transparent(color.base.environment_reverse,30)}"
+                        },
+                        "expand": {
+                            "value": "{color.base.black}"
+                        },
+                        "extra": {
+                            "value": "linear-gradient(180deg, {color.primary.primary_9} 0%,{color.base.black} 100%)",
+                            "comment": "全局左侧收藏栏其他入口背景色",
+                            "type": "color"
+                        }
+                    },
+                    "line": {
+                        "divider": {
+                            "value": "{transparent(color.base.environment,12)}",
+                            "comment": "全局左侧收藏栏分割线色",
+                            "type": "color"
+                        }
+                    },
+                    "icon": {
+                        "default": {
+                            "value": "{color.primary.primary_3}",
+                            "comment": "全局左侧收藏栏图标色",
+                            "type": "color"
+                        }
+                    }
+                }
+            },
+            "submenu": {
+                "color": {
+                    "bg": {
+                        "active": {
+                            "value": "{color.primary.primary_8}",
+                            "comment": "全局左侧收藏栏子菜单选中背景色",
+                            "type": "color"
+                        },
+                        "hover": {
+                            "value": "{transparent(color.base.environment,12)}",
+                            "comment": "全局左侧收藏栏子菜单Hover背景色",
+                            "type": "color"
+                        },
+                        "expand": {
+                            "value": "{transparent(color.base.environment_reverse,12)}",
+                            "comment": "全局左侧收藏栏子菜单展开状态背景色",
+                            "type": "color"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
