@@ -1,4 +1,4 @@
-> Do not edit directly1
+> Do not edit directly
 > Generated with design-token-editor on 7/12/2022, 3:06:20 PM
 
 | token name                          | value                                                                                                                               | display                                                             | comment                                              |
