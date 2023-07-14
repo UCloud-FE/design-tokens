@@ -5,9 +5,9 @@ module.exports = {
     // 按钮加载遮罩
     T_BUTTON_COMMON_COLOR_MASK: '#ffffff',
     // 按钮/主/背景色
-    T_BUTTON_PRIMARY_COLOR_BG_DEFAULT: 'linear-gradient(135deg, #415bf5 0%,#415bf5 100%)',
+    T_BUTTON_PRIMARY_COLOR_BG_DEFAULT: '#3860f4',
     // 按钮/主/背景色/hover
-    T_BUTTON_PRIMARY_COLOR_BG_HOVER: 'linear-gradient(135deg, #3d5aff 0%,#3d5aff 100%)',
+    T_BUTTON_PRIMARY_COLOR_BG_HOVER: '#6488fc',
     // 按钮/主/文本色
     T_BUTTON_PRIMARY_COLOR_TEXT_DEFAULT: '#ffffff',
     // 按钮/次/背景色
@@ -15,9 +15,9 @@ module.exports = {
     // 卡片/背景色
     T_CARD_COLOR_BG_DEFAULT: '#ffffff',
     // 图表/时间范围选择器/背景色
-    T_CHART_TIMEPICKER_BG_DEFAULT: '#dadef6',
+    T_CHART_TIMEPICKER_BG_DEFAULT: '#EAEEFD',
     // 图表/时间范围选择器/icon
-    T_CHART_TIMEPICKER_ICON_DEFAULT: '#8394ff',
+    T_CHART_TIMEPICKER_ICON_DEFAULT: '#6488fc',
     // 背景/渐变/内容区
     T_COLOR_BG_CONTENT_1: 'linear-gradient(180deg, #ebedf5 0%, #ebedf5 100%)',
     // 背景/常规/亮色
@@ -25,7 +25,7 @@ module.exports = {
     // 背景/常规/深色
     T_COLOR_BG_DEFAULT_DARK: '#f6f6fb',
     // 背景/常规/hover
-    T_COLOR_BG_DEFAULT_HOVER: '#d0d6f8',
+    T_COLOR_BG_DEFAULT_HOVER: '#f8f8ff',
     // 背景/常规/浅色
     T_COLOR_BG_DEFAULT_LIGHT: '#fafafc',
     // 背景/常规/默认色，替换为T_COLOR_BG_DEFAULT_BRIGHT
@@ -37,7 +37,7 @@ module.exports = {
     // 背景/错误状态/深色
     T_COLOR_BG_ERROR_DARK: '#f44336',
     // 背景/错误状态/浅色
-    T_COLOR_BG_ERROR_LIGHT: '#fff0f0',
+    T_COLOR_BG_ERROR_LIGHT: '#ffe9e9',
     // 背景/高亮
     T_COLOR_BG_HIGHLIGHT: '#fff5bd',
     // 背景/菜单
@@ -47,31 +47,31 @@ module.exports = {
     // 背景/提示状态/浅色
     T_COLOR_BG_NOTICE_LIGHT: '#fafafc',
     // 背景/纯色/品牌色1
-    T_COLOR_BG_PRIMARY_1: '#415bf5',
+    T_COLOR_BG_PRIMARY_1: '#3860f4',
     // 背景/纯色/品牌色2
-    T_COLOR_BG_PRIMARY_2: '#21339f',
+    T_COLOR_BG_PRIMARY_2: '#3860f4',
     // 背景/渐变/品牌色3
-    T_COLOR_BG_PRIMARY_3: 'linear-gradient(135deg, #415bf5 0%,#415bf5 100%)',
+    T_COLOR_BG_PRIMARY_3: '#3860f4',
     // 背景/渐变/品牌色4
-    T_COLOR_BG_PRIMARY_4: 'linear-gradient(135deg, #3d5aff 0%,#3d5aff 100%)',
+    T_COLOR_BG_PRIMARY_4: '#3860f4',
     // 背景/浅色/品牌色5
-    T_COLOR_BG_PRIMARY_5: '#f3f4fd',
+    T_COLOR_BG_PRIMARY_5: '#f8f8ff',
     // 背景/侧边栏
     T_COLOR_BG_SIDEBAR: '#e7e9f3',
     // 背景/成功状态/深色
     T_COLOR_BG_SUCCESS_DARK: '#15AD31',
     // 背景/成功状态/浅色
-    T_COLOR_BG_SUCCESS_LIGHT: '#E6FFED',
+    T_COLOR_BG_SUCCESS_LIGHT: '#e6ffea',
     // 背景/透明
     T_COLOR_BG_TRANSPARENT: 'transparent',
     // 背景/警告状态/深色
     T_COLOR_BG_WARNING_DARK: '#ffc42e',
     // 背景/警告状态/浅色
-    T_COLOR_BG_WARNING_LIGHT: '#fffce6',
+    T_COLOR_BG_WARNING_LIGHT: '#fff7e6',
     // 背景/白色，替换为T_COLOR_BG_DEFAULT_BRIGHT
     T_COLOR_BG_WHITE: '#ffffff',
     // 图例/蓝-1
-    T_COLOR_LEGEND_BLUE_1: '#e7eefd',
+    T_COLOR_LEGEND_BLUE_1: '#e6f4ff',
     // 图例/蓝-2
     T_COLOR_LEGEND_BLUE_2: '#c1d4fa',
     // 图例/蓝-3
@@ -87,7 +87,7 @@ module.exports = {
     // 图例/蓝-8
     T_COLOR_LEGEND_BLUE_8: '#0c5fa7',
     // 图例/蓝-9
-    T_COLOR_LEGEND_BLUE_9: '#152d4f',
+    T_COLOR_LEGEND_BLUE_9: '#263c4d',
     // 图例/青-1
     T_COLOR_LEGEND_CYAN_1: '#e8fcfc',
     // 图例/青-2
@@ -107,7 +107,7 @@ module.exports = {
     // 图例/青-9
     T_COLOR_LEGEND_CYAN_9: '#174d45',
     // 图例/绿-1
-    T_COLOR_LEGEND_GREEN_1: '#E6FFED',
+    T_COLOR_LEGEND_GREEN_1: '#e6ffea',
     // 图例/绿-2
     T_COLOR_LEGEND_GREEN_2: '#C2FFC9',
     // 图例/绿-3
@@ -123,7 +123,7 @@ module.exports = {
     // 图例/绿-8
     T_COLOR_LEGEND_GREEN_8: '#077523',
     // 图例/绿-9
-    T_COLOR_LEGEND_GREEN_9: '#00591C',
+    T_COLOR_LEGEND_GREEN_9: '#264d2c',
     // 图例/浅蓝-1
     T_COLOR_LEGEND_LIGHTBLUE_1: '#e7f5fd',
     // 图例/浅蓝-2
@@ -143,7 +143,7 @@ module.exports = {
     // 图例/浅蓝-9
     T_COLOR_LEGEND_LIGHTBLUE_9: '#154250',
     // 图例/橙-1
-    T_COLOR_LEGEND_ORANGE_1: '#fff5e6',
+    T_COLOR_LEGEND_ORANGE_1: '#fff2e8',
     // 图例/橙-2
     T_COLOR_LEGEND_ORANGE_2: '#ffe3bd',
     // 图例/橙-3
@@ -159,9 +159,9 @@ module.exports = {
     // 图例/橙-8
     T_COLOR_LEGEND_ORANGE_8: '#B34400',
     // 图例/橙-9
-    T_COLOR_LEGEND_ORANGE_9: '#543211',
+    T_COLOR_LEGEND_ORANGE_9: '#4d3726',
     // 图例/紫-1
-    T_COLOR_LEGEND_PURPLE_1: '#f4ebf9',
+    T_COLOR_LEGEND_PURPLE_1: '#f9f0ff',
     // 图例/紫-2
     T_COLOR_LEGEND_PURPLE_2: '#e1ccf0',
     // 图例/紫-3
@@ -177,9 +177,9 @@ module.exports = {
     // 图例/紫-8
     T_COLOR_LEGEND_PURPLE_8: '#4f298a',
     // 图例/紫-9
-    T_COLOR_LEGEND_PURPLE_9: '#322044',
+    T_COLOR_LEGEND_PURPLE_9: '#3d264d',
     // 图例/红-1
-    T_COLOR_LEGEND_RED_1: '#fff0f0',
+    T_COLOR_LEGEND_RED_1: '#ffe9e9',
     // 图例/红-2
     T_COLOR_LEGEND_RED_2: '#ffe2e2',
     // 图例/红-3
@@ -195,9 +195,9 @@ module.exports = {
     // 图例/红-8
     T_COLOR_LEGEND_RED_8: '#8D1E16',
     // 图例/红-9
-    T_COLOR_LEGEND_RED_9: '#5a0c06',
+    T_COLOR_LEGEND_RED_9: '#4d2626',
     // 图例/黄-1
-    T_COLOR_LEGEND_YELLOW_1: '#fffce6',
+    T_COLOR_LEGEND_YELLOW_1: '#fff7e6',
     // 图例/黄-2
     T_COLOR_LEGEND_YELLOW_2: '#fff5bd',
     // 图例/黄-3
@@ -213,11 +213,11 @@ module.exports = {
     // 图例/黄-8
     T_COLOR_LEGEND_YELLOW_8: '#b37400',
     // 图例/黄-9
-    T_COLOR_LEGEND_YELLOW_9: '#544411',
+    T_COLOR_LEGEND_YELLOW_9: '#4d4026',
     // 线条/常规/深色
-    T_COLOR_LINE_DEFAULT_DARK: '#c3cad9',
+    T_COLOR_LINE_DEFAULT_DARK: '#d2d6ea',
     // 线条/常规/浅色
-    T_COLOR_LINE_DEFAULT_LIGHT: '#d2d6ea',
+    T_COLOR_LINE_DEFAULT_LIGHT: '#efeff8',
     // 线条/常规/透明
     T_COLOR_LINE_DEFAULT_TRANSPARENT: 'transparent',
     // 线条/禁用/深色
@@ -229,15 +229,15 @@ module.exports = {
     // 线条/错误/浅色
     T_COLOR_LINE_ERROR_LIGHT: '#fed4d4',
     // 线条/提示/深色
-    T_COLOR_LINE_NOTICE_DARK: '#526075',
+    T_COLOR_LINE_NOTICE_DARK: '#d2d6ea',
     // 线条/提示/浅色
-    T_COLOR_LINE_NOTICE_LIGHT: '#d2d6ea',
+    T_COLOR_LINE_NOTICE_LIGHT: '#dfe0f1',
     // 线条/主色
-    T_COLOR_LINE_PRIMARY_DEFAULT: '#415bf5',
+    T_COLOR_LINE_PRIMARY_DEFAULT: '#3860f4',
     // 线条/主色/hover
-    T_COLOR_LINE_PRIMARY_HOVER: '#21339f',
+    T_COLOR_LINE_PRIMARY_HOVER: '#3860f4',
     // 线条/浅色
-    T_COLOR_LINE_PRIMARY_LIGHT: '#d0d6f8',
+    T_COLOR_LINE_PRIMARY_LIGHT: '#f8f8ff',
     // 线条/正确/深色
     T_COLOR_LINE_SUCCESS_DARK: '#15AD31',
     // 线条/正确/浅色
@@ -259,11 +259,11 @@ module.exports = {
     // 文本/错误
     T_COLOR_TEXT_ERROR: '#f44336',
     // 文本/错误/深色
-    T_COLOR_TEXT_ERROR_DARK: '#5a0c06',
+    T_COLOR_TEXT_ERROR_DARK: '#4d2626',
     // 文本/主色
-    T_COLOR_TEXT_PRIMARY_DEFAULT: '#415bf5',
+    T_COLOR_TEXT_PRIMARY_DEFAULT: '#3860f4',
     // 文本/主色/hover
-    T_COLOR_TEXT_PRIMARY_HOVER: '#21339f',
+    T_COLOR_TEXT_PRIMARY_HOVER: '#6488fc',
     // 文本/备注/深色
     T_COLOR_TEXT_REMARK_DARK: '#7a8baa',
     // 文本/备注/浅色
@@ -271,7 +271,7 @@ module.exports = {
     // 文本/正确
     T_COLOR_TEXT_SUCCESS: '#15AD31',
     // 文本/正确/深色
-    T_COLOR_TEXT_SUCCESS_DARK: '#00591C',
+    T_COLOR_TEXT_SUCCESS_DARK: '#264d2c',
     // 系统黑色文本
     T_COLOR_TEXT_SYSTEM_BLACK: '#000000',
     // 系统白色文本
@@ -279,7 +279,7 @@ module.exports = {
     // 文本/警告
     T_COLOR_TEXT_WARNING: '#ffc42e',
     // 文本/警告/深色
-    T_COLOR_TEXT_WARNING_DARK: '#544411',
+    T_COLOR_TEXT_WARNING_DARK: '#4d4026',
     // 文本/白色，替换为T_COLOR_TEXT_DEFAULT_BRIGHT
     T_COLOR_TEXT_WHITE: '#ffffff',
     // 大号控件字号
@@ -291,21 +291,21 @@ module.exports = {
     // 大号控件高度
     T_CONTROL_HEIGHT_LG: '32px',
     // 中号控件高度
-    T_CONTROL_HEIGHT_MD: '28px',
+    T_CONTROL_HEIGHT_MD: '32px',
     // 小号控件高度
     T_CONTROL_HEIGHT_SM: '24px',
     // 大号控件间距
-    T_CONTROL_SPACING_LG: '8px',
+    T_CONTROL_SPACING_LG: '12px',
     // 中号控件间距
-    T_CONTROL_SPACING_MD: '8px',
+    T_CONTROL_SPACING_MD: '12px',
     // 小号控件间距
     T_CONTROL_SPACING_SM: '8px',
     // 圆形
     T_CORNER_CIRCLE: '50%',
     // 大圆角，用于卡片圆角
-    T_CORNER_LG: '4px',
+    T_CORNER_LG: '8px',
     // 默认圆角，常用于按钮/输入框等
-    T_CORNER_SM: '2px',
+    T_CORNER_SM: '4px',
     // 直角
     T_CORNER_ZERO: '0',
     // 抽屉/操作/背景/默认
@@ -313,23 +313,23 @@ module.exports = {
     // 抽屉/操作/背景/悬停
     T_DRAWER_RESIZER_BG_HOVER: 'rgba(0,0,0,0.5)',
     // 顶部导航左侧LOGO背景色
-    T_FRAME_LOGO_COLOR_BG_DEFAULT: '#21339f',
+    T_FRAME_LOGO_COLOR_BG_DEFAULT: '#3357df',
     // 全部产品列表/图标颜色
-    T_FRAME_PRODUCTS_COLOR_TEXT_ICON: '#152d4f',
+    T_FRAME_PRODUCTS_COLOR_TEXT_ICON: '#263c4d',
     // 全局左侧收藏栏选中的产品背景色
-    T_FRAME_SIDEBAR_COLOR_BG_ACTIVE: '#f3f4fd',
+    T_FRAME_SIDEBAR_COLOR_BG_ACTIVE: '#f8f8ff',
     // 全局左侧收藏栏默认背景色
     T_FRAME_SIDEBAR_COLOR_BG_DEFAULT: '#dfe0f1',
     // 全局左侧收藏栏展开状态背景色
     T_FRAME_SIDEBAR_COLOR_BG_EXPAND: '#ffffff',
     // 顶部导航默认背景色
-    T_FRAME_TOP_COLOR_BG_DEFAULT: '#415bf5',
+    T_FRAME_TOP_COLOR_BG_DEFAULT: '#3860f4',
     // 顶部导航hover背景色/Logo背景色
-    T_FRAME_TOP_COLOR_BG_HOVER: '#21339f',
+    T_FRAME_TOP_COLOR_BG_HOVER: '#3357df',
     // 大号控件高度
     T_HEIGHT_LG: '32px',
     // 中号控件高度
-    T_HEIGHT_MD: '28px',
+    T_HEIGHT_MD: '32px',
     // 小号控件高度
     T_HEIGHT_SM: '24px',
     // 代码编辑器/读写/背景色/操作
@@ -341,11 +341,11 @@ module.exports = {
     // 代码编辑器/只读/背景色/默认
     T_IDE_READONLY_COLOR_BG_DEFAULT: '#f6f6fb',
     // 输入框/背景色/激活
-    T_INPUT_COLOR_BG_ACTIVE: '#f6f6fb',
+    T_INPUT_COLOR_BG_ACTIVE: '#ffffff',
     // 输入框/背景色/默认
-    T_INPUT_COLOR_BG_DEFAULT: '#fafafc',
+    T_INPUT_COLOR_BG_DEFAULT: '#ffffff',
     // 输入框/背景色/高亮/默认
-    T_INPUT_COLOR_BG_HL_DEFAULT: '#d0d6f8',
+    T_INPUT_COLOR_BG_HL_DEFAULT: '#e3e9ff',
     // 输入框/背景色/高亮/错误
     T_INPUT_COLOR_BG_HL_ERROR: '#fed4d4',
     // 默认线条，实线
@@ -370,7 +370,7 @@ module.exports = {
     // 右侧计费模块背景
     T_PAY_COLOR_BG_2: '#efeff8',
     // 左侧订单卡片下半段背景
-    T_PAY_COLOR_BG_3: '#f3f4fd',
+    T_PAY_COLOR_BG_3: '#f8f8ff',
     // 弹出层/背景色/暗
     T_POPOVER_COLOR_BG_DARK: '#0a1633',
     // 弹出层/背景色/亮
@@ -386,77 +386,69 @@ module.exports = {
     // 滚动条/边框色
     T_SCROLLBAR_COLOR_BORDER_DEFAULT: 'rgba(255,255,255,0.7)',
     // 块/下/大
-    T_SHADOW_BLOCK_BOTTOM_LG:
-        '0 46px 24px -35px rgba(0,0,0,0.05),0 25px 10px -16px rgba(0,0,0,0.05),0 10px 6px -6px rgba(0,0,0,0.05)',
+    T_SHADOW_BLOCK_BOTTOM_LG: '0 0px 0px 0px rgba(0,0,0,0)',
     // 块/下/小
-    T_SHADOW_BLOCK_BOTTOM_SM: '0 3px 3px -2px rgba(0,0,0,0.05),0 8px 6px -6px rgba(0,0,0,0.08)',
+    T_SHADOW_BLOCK_BOTTOM_SM: '-8 0 6 -6 rgba(195,202,217,0.7)',
     // 块/常规/大
     T_SHADOW_BLOCK_DEFAULT_LG:
-        '0 6px 16px 0 rgba(0,0,0,0.05), 0 16px 24px -8px rgba(0,0,0,0.08), 0 0 16px 0 rgba(0,0,0,0.05),inset 0 -2px 0px 0px rgba(0,0,0,0.08)',
+        '0 6 16 0 rgba(0,0,0,0.5), 0 14 24 -8 rgba(0,0,0,0.8), 0 0 16 0 rgba(0,0,0,0.5), 0 -2 0 0 rgba(0,0,0,0.8)',
     // 块/常规/中
     T_SHADOW_BLOCK_DEFAULT_MD:
-        '0 0 1px 0 rgba(0,0,0,0.12), 0 8px 12px -4px rgba(0,0,0,0.12), 0 4px 4px -2px rgba(0,0,0,0.05),inset 0 -2px 0px 0px rgba(0,0,0,0.08)',
+        '0 0 1px 0 rgba(0,0,0,0.12), 0 8 12 -4 rgba(0,0,0,0.12), 0 4 4 -2 rgba(0,0,0,0.5), 0 -2 0 0 rgba(0,0,0,0.8)',
     // 块/常规/小
-    T_SHADOW_BLOCK_DEFAULT_SM:
-        '0 0 2px 0 rgba(0,0,0,0.08), 0 5px 8px -4px rgba(0,0,0,0.12), 0 1px 0 0 rgba(0,0,0,0.05),inset 0 -1px 0px 0px rgba(0,0,0,0.08)',
+    T_SHADOW_BLOCK_DEFAULT_SM: 'inset 0 0px 0px 0px rgba(0,0,0,0)',
     // 块/左/大
-    T_SHADOW_BLOCK_LEFT_LG:
-        '-46px 0 24px -35px rgba(0,0,0,0.05),-25px 0 10px -16px rgba(0,0,0,0.05),-10px 0 6px -6px rgba(0,0,0,0.05)',
+    T_SHADOW_BLOCK_LEFT_LG: '0px 0 0px 0px rgba(0,0,0,0)',
     // 块/左/小
-    T_SHADOW_BLOCK_LEFT_SM: '-3px 0 3px -2px rgba(0,0,0,0.05),-8px 0 6px -6px rgba(0,0,0,0.08)',
+    T_SHADOW_BLOCK_LEFT_SM: 'inset -8px 0 6px -6px rgba(195,202,217,0.7)',
     // 块/右/大
-    T_SHADOW_BLOCK_RIGHT_LG:
-        '46px 0 24px -35px rgba(0,0,0,0.05),25px 0 10px -16px rgba(0,0,0,0.05),10px 0 6px -6px rgba(0,0,0,0.05)',
+    T_SHADOW_BLOCK_RIGHT_LG: '0 0 0 0 rgba(0,0,0,0)',
     // 块/右/小
-    T_SHADOW_BLOCK_RIGHT_SM: '3px 0 3px -2px rgba(0,0,0,0.05),8px 0 6px -6px rgba(0,0,0,0.08)',
+    T_SHADOW_BLOCK_RIGHT_SM: '-8px 0 6 -6 rgba(195,202,217,0.7)',
     // 块/上/大
-    T_SHADOW_BLOCK_TOP_LG:
-        '0 -46px 24px -35px rgba(0,0,0,0.05),0 -25px 10px -16px rgba(0,0,0,0.05),0 -10px 6px -6px rgba(0,0,0,0.05)',
+    T_SHADOW_BLOCK_TOP_LG: '0 0px 0px 0px rgba(0,0,0,0)',
     // 块/上/小
-    T_SHADOW_BLOCK_TOP_SM: '0 -3px 3px -2px rgba(0,0,0,0.05),0 -8px 6px -6px rgba(0,0,0,0.08)',
+    T_SHADOW_BLOCK_TOP_SM: '-8 0px 6 -6 rgba(195,202,217,0.7)',
     // 按钮/白/默认
-    T_SHADOW_BUTTON_DEFAULT: '0 2px 3px 0 rgba(0,0,0,0.12),inset 0 -2px 0 0 #d0d6f8',
+    T_SHADOW_BUTTON_DEFAULT: '0 2px 0px 0 rgba(0,0,0,0.02)',
     // 按钮/错误色/默认
-    T_SHADOW_BUTTON_ERROR: '0 1px 3px -1px #f44336',
+    T_SHADOW_BUTTON_ERROR: '0 2px 0 0 rgba(244,67,54,0.1)',
     // 按钮/错误色/hover
-    T_SHADOW_BUTTON_ERROR_HOVER: '0 5px 8px -4px #f44336',
+    T_SHADOW_BUTTON_ERROR_HOVER: '0 2px 0 0 rgba(244,67,54,0.1)',
     // 按钮/白/hover
-    T_SHADOW_BUTTON_HOVER:
-        '0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05), inset 0 -2px 0 0 #d0d6f8',
+    T_SHADOW_BUTTON_HOVER: '0 2 0px 0 rgba(0,0,0,0.02)',
     // 按钮/品牌色/默认
-    T_SHADOW_BUTTON_PRIMARY:
-        '0 2px 4px -1px #6c81ff, inset 0 -3px 0 0 rgba(0,0,0,0.12), inset 0 1px 0 0 rgba(0,0,0,0.12)',
+    T_SHADOW_BUTTON_PRIMARY: '0 2px 0px 0 rgba(56,96,244,0.1)',
     // 按钮/品牌色/hover
-    T_SHADOW_BUTTON_PRIMARY_HOVER:
-        '0 5px 8px -4px #6c81ff, inset 0 -3px 0 0 rgba(0,0,0,0.12), inset 0 1px 0 0 rgba(0,0,0,0.12)',
+    T_SHADOW_BUTTON_PRIMARY_HOVER: '0 2px 0 0 rgba(56,96,244,0.1)',
     // 内阴影/输入框
-    T_SHADOW_INSET_1: 'inset 0 1px 3px 0 #d2d6ea',
+    T_SHADOW_INSET_1: 'inset 0 0px 0px 0 rgba(0,0,0,0)',
     // 内阴影/下
-    T_SHADOW_INSET_BOTTOM: 'inset 0 -10px 8px -8px rgba(0,0,0,0.12)',
+    T_SHADOW_INSET_BOTTOM: 'inset 0 0 0 0 rgba(0,0,0,0)',
     // 内阴影/默认
-    T_SHADOW_INSET_DEFAULT: 'inset 0 3px 0 0 rgba(0,0,0,0.05)',
+    T_SHADOW_INSET_DEFAULT: 'inset 0 0 0 0 rgba(0,0,0,0)',
     // 内阴影/错误
-    T_SHADOW_INSET_ERROR: 'inset 0 1px 3px 0 #fed4d4',
+    T_SHADOW_INSET_ERROR: 'inset 0 0 0 0 rgba(0,0,0,0)',
     // 内阴影/左
-    T_SHADOW_INSET_LEFT: 'inset 10px 0 8px -8px rgba(0,0,0,0.12)',
+    T_SHADOW_INSET_LEFT: 'inset 0 0 0 0 rgba(0,0,0,0)',
     // 内阴影/右
-    T_SHADOW_INSET_RIGHT: 'inset -10px 0 8px -8px rgba(0,0,0,0.12)',
+    T_SHADOW_INSET_RIGHT: 'inset 0 0 0 0 rgba(0,0,0,0)',
     // 内阴影/上
-    T_SHADOW_INSET_TOP: 'inset 0 10px 8px -8px rgba(0,0,0,0.12)',
+    T_SHADOW_INSET_TOP: 'inset 0 0 0 0 rgba(0,0,0,0)',
     // 骨架屏/背景色/深色
     T_SKELETON_COLOR_BG_DARK: '#efeff8',
     // 骨架屏/背景色/浅色
     T_SKELETON_COLOR_BG_LIGHT: '#f6f6fb',
     // 滑块/背景色/激活
-    T_SLIDER_COLOR_BG_ACTIVE: '#f3f4fd',
+    T_SLIDER_COLOR_BG_ACTIVE: '#f8f8ff',
     // 滑块/背景色/未激活
     T_SLIDER_COLOR_BG_DEFAULT: '#fafafc',
     // 滑块/边框色/激活
-    T_SLIDER_COLOR_LINE_ACTIVE: '#415bf5',
+    T_SLIDER_COLOR_LINE_ACTIVE: '#3860f4',
     // 滑块/边框色/未激活
     T_SLIDER_COLOR_LINE_DEFAULT: '#c3cad9',
     // 滑块/文本色/激活
-    T_SLIDER_COLOR_TEXT_ACTIVE: '#415bf5',
+    T_SLIDER_COLOR_TEXT_ACTIVE: '#3860f4',
     // 滑块/文本色/未激活
     T_SLIDER_COLOR_TEXT_DEFAULT: '#7a8baa',
     // 弹窗内表单间纵向间距
@@ -464,37 +456,37 @@ module.exports = {
     // 大号按钮左右内间距/页面内按钮与按钮横向间距
     T_SPACING_COMMON_MD: '12px',
     // 中号按钮左右内间距/弹窗内按钮与按钮的横向间距
-    T_SPACING_COMMON_SM: '8px',
+    T_SPACING_COMMON_SM: '12px',
     //
     T_SPACING_COMMON_XLG: '20px',
     // icon和文本之间的间距
     T_SPACING_COMMON_XS: '4px',
     // 页面内表单间纵向间距/常规卡片间距
-    T_SPACING_COMMON_XXLG: '24px',
+    T_SPACING_COMMON_XXLG: '4px',
     //
-    T_SPACING_COMMON_XXXLG: '32px',
+    T_SPACING_COMMON_XXXLG: '16px',
     // 大正方形的宽度/高度
     T_SQUARE_LG: '32px',
     // 中正方形的宽度/高度
-    T_SQUARE_MD: '28px',
+    T_SQUARE_MD: '32px',
     // 小正方形的宽度/高度
     T_SQUARE_SM: '24px',
     // 开关/内圈/背景色/关
-    T_SWITCH_COLOR_BG_INNER_OFF: '#f6f6fb',
+    T_SWITCH_COLOR_BG_INNER_OFF: 'rgba(210,214,234,0.5)',
     // 开关/内圈/背景色/开
-    T_SWITCH_COLOR_BG_INNER_ON: '#15AD31',
+    T_SWITCH_COLOR_BG_INNER_ON: '#3860f4',
     // 开关/外圈/背景色
     T_SWITCH_COLOR_BG_OUTER: '#ffffff',
     // 开关/内圈/边框/开
-    T_SWITCH_COLOR_LINE_INNER_ON: '#E6FFED',
+    T_SWITCH_COLOR_LINE_INNER_ON: 'transparent',
     // 开关/文本色/关
     T_SWITCH_COLOR_TEXT_OFF: '#526075',
     // 开关/文本色/开
     T_SWITCH_COLOR_TEXT_ON: '#ffffff',
     // 表格/行/背景色
-    T_TABLE_ROW_COLOR_BG_DEFAULT: '#f6f6fb',
+    T_TABLE_ROW_COLOR_BG_DEFAULT: '#ffffff',
     // 表格/行/背景色/hover
-    T_TABLE_ROW_COLOR_BG_HOVER: '#dadef6',
+    T_TABLE_ROW_COLOR_BG_HOVER: '#fafafc',
     // 导航切换选中项/背景色
     T_TABS_DEFAULT_COLOR_BG_DEFAULT: '#ebedf5',
     // 导航切换/背景色/hover
@@ -528,7 +520,7 @@ module.exports = {
     // 一般用于标题，或者特殊场景下的文本展示
     T_TYPO_FONT_SIZE_8: '32px',
     // 粗体字
-    T_TYPO_FONT_WEIGHT_BOLD: '600',
+    T_TYPO_FONT_WEIGHT_BOLD: '500',
     // 细体字
     T_TYPO_FONT_WEIGHT_LIGHT: '300',
     // 默认字体粗细，常规
