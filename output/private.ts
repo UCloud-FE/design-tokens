@@ -1,5 +1,5 @@
 // Do not edit directly
-// Generated with design-token-editor on 2023/7/14 19:03:02
+// Generated with design-token-editor on 2023/7/26 17:36:29
 
 module.exports = {
     // 按钮加载遮罩
@@ -388,27 +388,27 @@ module.exports = {
     // 块/下/大
     T_SHADOW_BLOCK_BOTTOM_LG: '0 0px 0px 0px rgba(0,0,0,0)',
     // 块/下/小
-    T_SHADOW_BLOCK_BOTTOM_SM: '-8 0 6 -6 rgba(195,202,217,0.7)',
+    T_SHADOW_BLOCK_BOTTOM_SM: '0 3px 3px -2px rgba(0,0,0,0.05), 0 8px 6px -6px rgba(0,0,0,0.08)',
     // 块/常规/大
     T_SHADOW_BLOCK_DEFAULT_LG:
-        '0 6 16 0 rgba(0,0,0,0.5), 0 14 24 -8 rgba(0,0,0,0.8), 0 0 16 0 rgba(0,0,0,0.5), 0 -2 0 0 rgba(0,0,0,0.8)',
+        '0 6px 16px 0 rgba(0,0,0,0.05), 0 14px 24px -8px rgba(0,0,0,0.08), 0 0 16px 0 rgba(0,0,0,0.05), inset 0 -2px 0 0 rgba(0,0,0,0.08)',
     // 块/常规/中
     T_SHADOW_BLOCK_DEFAULT_MD:
-        '0 0 1px 0 rgba(0,0,0,0.12), 0 8 12 -4 rgba(0,0,0,0.12), 0 4 4 -2 rgba(0,0,0,0.5), 0 -2 0 0 rgba(0,0,0,0.8)',
+        '0 0 1px 0 rgba(0,0,0,0.12), 0 8px 12px -4px rgba(0,0,0,0.12), 0 4px 4px -2px rgba(0,0,0,0.05), inset 0 -2px 0 0 rgba(0,0,0,0.08)',
     // 块/常规/小
     T_SHADOW_BLOCK_DEFAULT_SM: 'inset 0 0px 0px 0px rgba(0,0,0,0)',
     // 块/左/大
     T_SHADOW_BLOCK_LEFT_LG: '0px 0 0px 0px rgba(0,0,0,0)',
     // 块/左/小
-    T_SHADOW_BLOCK_LEFT_SM: 'inset -8px 0 6px -6px rgba(195,202,217,0.7)',
+    T_SHADOW_BLOCK_LEFT_SM: '-8px 0 6px -6px rgba(0,0,0,0.08), -3px 0 3px -2px rgba(0,0,0,0.05)',
     // 块/右/大
     T_SHADOW_BLOCK_RIGHT_LG: '0 0 0 0 rgba(0,0,0,0)',
     // 块/右/小
-    T_SHADOW_BLOCK_RIGHT_SM: '-8px 0 6 -6 rgba(195,202,217,0.7)',
+    T_SHADOW_BLOCK_RIGHT_SM: '8px 0 6px -6px rgba(0,0,0,0.08), 3px 0 3px -2px rgba(0,0,0,0.05)',
     // 块/上/大
     T_SHADOW_BLOCK_TOP_LG: '0 0px 0px 0px rgba(0,0,0,0)',
     // 块/上/小
-    T_SHADOW_BLOCK_TOP_SM: '-8 0px 6 -6 rgba(195,202,217,0.7)',
+    T_SHADOW_BLOCK_TOP_SM: '0 -3px 3px -2px rgba(0,0,0,0.05), 0 -8px 6px -6px rgba(0,0,0,0.08)',
     // 按钮/白/默认
     T_SHADOW_BUTTON_DEFAULT: '0 2px 0px 0 rgba(0,0,0,0.02)',
     // 按钮/错误色/默认

@@ -1229,17 +1229,17 @@
                         "comment": "块/常规/小"
                     },
                     "md": {
-                        "value": "0 0 1px 0 {transparent(color.base.environment_reverse, 12)}, 0 8 12 -4 {transparent(color.base.environment_reverse, 12)}, 0 4 4 -2 {transparent(color.base.environment_reverse, 50)}, 0 -2 0 0 {transparent(color.base.environment_reverse, 80)}",
+                        "value": "0 0 1px 0 {transparent(color.base.environment_reverse, 12)}, 0 8px 12px -4px {transparent(color.base.environment_reverse, 12)}, 0 4px 4px -2px {transparent(color.base.environment_reverse, 5)}, inset 0 -2px 0 0 {transparent(color.base.environment_reverse, 8)}",
                         "comment": "块/常规/中"
                     },
                     "lg": {
-                        "value": "0 6 16 0 {transparent(color.base.environment_reverse, 50)}, 0 14 24 -8 {transparent(color.base.environment_reverse, 80)}, 0 0 16 0 {transparent(color.base.environment_reverse, 50)}, 0 -2 0 0 {transparent(color.base.environment_reverse, 80)}",
+                        "value": "0 6px 16px 0 {transparent(color.base.environment_reverse, 5)}, 0 14px 24px -8px {transparent(color.base.environment_reverse, 8)}, 0 0 16px 0 {transparent(color.base.environment_reverse, 5)}, inset 0 -2px 0 0 {transparent(color.base.environment_reverse, 8)}",
                         "comment": "块/常规/大"
                     }
                 },
                 "left": {
                     "sm": {
-                        "value": "inset -8px 0 6px -6px {transparent(color.secondary.secondary_7, 70)}",
+                        "value": "-8px 0 6px -6px {transparent(color.base.environment_reverse, 8)}, -3px 0 3px -2px {transparent(color.base.environment_reverse, 5)}",
                         "comment": "块/左/小"
                     },
                     "lg": {
@@ -1249,7 +1249,7 @@
                 },
                 "right": {
                     "sm": {
-                        "value": "-8px 0 6 -6 {transparent(color.secondary.secondary_7, 70)}",
+                        "value": "8px 0 6px -6px {transparent(color.base.environment_reverse, 8)}, 3px 0 3px -2px {transparent(color.base.environment_reverse, 5)}",
                         "comment": "块/右/小"
                     },
                     "lg": {
@@ -1259,7 +1259,7 @@
                 },
                 "bottom": {
                     "sm": {
-                        "value": "-8 0 6 -6 {transparent(color.secondary.secondary_7, 70)}",
+                        "value": "0 3px 3px -2px {transparent(color.base.environment_reverse, 5)}, 0 8px 6px -6px {transparent(color.base.environment_reverse, 8)}",
                         "comment": "块/下/小"
                     },
                     "lg": {
@@ -1269,7 +1269,7 @@
                 },
                 "top": {
                     "sm": {
-                        "value": "-8 0px 6 -6 {transparent(color.secondary.secondary_7, 70)}",
+                        "value": "0 -3px 3px -2px {transparent(color.base.environment_reverse, 5)}, 0 -8px 6px -6px {transparent(color.base.environment_reverse, 8)}",
                         "comment": "块/上/小"
                     },
                     "lg": {
