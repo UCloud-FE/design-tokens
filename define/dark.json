@@ -486,6 +486,23 @@
         "switch": {
             "color": {
                 "bg": {
+                    "dot": {
+                        "on": {
+                            "value": "{color.assist.green_6}",
+                            "comment": "开关/圆点/背景色/开",
+                            "type": "color"
+                        },
+                        "off": {
+                            "value": "{color.assist.red_6}",
+                            "comment": "开关/圆点/背景色/关",
+                            "type": "color"
+                        },
+                        "disabled": {
+                            "value": "{color.text.disabled}",
+                            "comment": "开关/圆点/背景色/禁用",
+                            "type": "color"
+                        }
+                    },
                     "outer": {
                         "value": "{color.secondary.secondary_1}"
                     },
@@ -500,6 +517,23 @@
                         "value": "{color.base.black}"
                     }
                 }
+            },
+            "corner": {
+                "value": "2px",
+                "comment": "开关/圆角"
+            }
+        },
+        "radio": {
+            "header": {
+                "color": {
+                    "bg": {
+                        "active": {
+                            "value": "{color.secondary.secondary_1}",
+                            "comment": "单选框/卡片标题/背景色/激活",
+                            "type": "color"
+                        }
+                    }
+                }
             }
         },
         "table": {
@@ -511,6 +545,17 @@
                         },
                         "hover": {
                             "value": "{color.primary.primary_3}"
+                        }
+                    }
+                }
+            },
+            "header": {
+                "color": {
+                    "bg": {
+                        "default": {
+                            "value": "{color.base.white}",
+                            "comment": "表格/标题/背景色",
+                            "type": "color"
                         }
                     }
                 }

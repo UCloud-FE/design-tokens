@@ -1411,6 +1411,16 @@
                 }
             }
         },
+        "form": {
+            "item": {
+                "spacing": {
+                    "vertical": {
+                        "value": "16px",
+                        "comment": "表单项/垂直间距"
+                    }
+                }
+            }
+        },
         "input": {
             "color": {
                 "bg": {
@@ -1591,6 +1601,23 @@
         "switch": {
             "color": {
                 "bg": {
+                    "dot": {
+                        "on": {
+                            "value": "{color.assist.green_6}",
+                            "comment": "开关/圆点/背景色/开",
+                            "type": "color"
+                        },
+                        "off": {
+                            "value": "{color.assist.red_6}",
+                            "comment": "开关/圆点/背景色/关",
+                            "type": "color"
+                        },
+                        "disabled": {
+                            "value": "#cccccc",
+                            "comment": "开关/圆点/背景色/禁用",
+                            "type": "color"
+                        }
+                    },
                     "outer": {
                         "value": "{color.base.white}",
                         "comment": "开关/外圈/背景色",
@@ -1630,6 +1657,23 @@
                         }
                     }
                 }
+            },
+            "corner": {
+                "value": "2px",
+                "comment": "开关/圆角"
+            }
+        },
+        "radio": {
+            "card": {
+                "color": {
+                    "bg": {
+                        "active": {
+                            "value": "{color.secondary.secondary_1}",
+                            "comment": "单选框/卡片标题/背景色/激活",
+                            "type": "color"
+                        }
+                    }
+                }
             }
         },
         "table": {
@@ -1644,6 +1688,17 @@
                         "hover": {
                             "value": "{color.primary.primary_2}",
                             "comment": "表格/行/背景色/hover",
+                            "type": "color"
+                        }
+                    }
+                }
+            },
+            "header": {
+                "color": {
+                    "bg": {
+                        "default": {
+                            "value": "{color.base.white}",
+                            "comment": "表格/标题/背景色",
                             "type": "color"
                         }
                     }

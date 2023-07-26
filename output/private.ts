@@ -1,5 +1,5 @@
 // Do not edit directly
-// Generated with design-token-editor on 2023/7/26 17:36:29
+// Generated with design-token-editor on 2023/7/26 19:30:41
 
 module.exports = {
     // 按钮加载遮罩
@@ -312,6 +312,8 @@ module.exports = {
     T_DRAWER_RESIZER_BG_DEFAULT: 'rgba(0,0,0,0.3)',
     // 抽屉/操作/背景/悬停
     T_DRAWER_RESIZER_BG_HOVER: 'rgba(0,0,0,0.5)',
+    // 表单项/垂直间距
+    T_FORM_ITEM_SPACING_VERTICAL: '16px',
     // 顶部导航左侧LOGO背景色
     T_FRAME_LOGO_COLOR_BG_DEFAULT: '#3357df',
     // 全部产品列表/图标颜色
@@ -381,6 +383,8 @@ module.exports = {
     T_POPOVER_COLOR_LINE_LIGHT: '#d2d6ea',
     // 进度条/背景色
     T_PROGRESS_COLOR_BG_DEFAULT: '#dfe0f1',
+    // 单选框/卡片标题/背景色/激活
+    T_RADIO_CARD_COLOR_BG_ACTIVE: '#f8f8ff',
     // 滚动条/背景色
     T_SCROLLBAR_COLOR_BG_DEFAULT: 'rgba(0,0,0,0.12)',
     // 滚动条/边框色
@@ -471,6 +475,12 @@ module.exports = {
     T_SQUARE_MD: '32px',
     // 小正方形的宽度/高度
     T_SQUARE_SM: '24px',
+    // 开关/圆点/背景色/禁用
+    T_SWITCH_COLOR_BG_DOT_DISABLED: '#535763',
+    // 开关/圆点/背景色/关
+    T_SWITCH_COLOR_BG_DOT_OFF: '#f44336',
+    // 开关/圆点/背景色/开
+    T_SWITCH_COLOR_BG_DOT_ON: '#15AD31',
     // 开关/内圈/背景色/关
     T_SWITCH_COLOR_BG_INNER_OFF: 'rgba(210,214,234,0.5)',
     // 开关/内圈/背景色/开
@@ -483,6 +493,10 @@ module.exports = {
     T_SWITCH_COLOR_TEXT_OFF: '#526075',
     // 开关/文本色/开
     T_SWITCH_COLOR_TEXT_ON: '#ffffff',
+    // 开关/圆角
+    T_SWITCH_CORNER: '2px',
+    // 表格/标题/背景色
+    T_TABLE_HEADER_COLOR_BG_DEFAULT: '#ffffff',
     // 表格/行/背景色
     T_TABLE_ROW_COLOR_BG_DEFAULT: '#ffffff',
     // 表格/行/背景色/hover
