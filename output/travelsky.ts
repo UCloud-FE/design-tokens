@@ -1,5 +1,5 @@
 // Do not edit directly
-// Generated with design-token-editor on 2023/7/26 19:41:46
+// Generated with design-token-editor on 2023/7/27 11:33:10
 
 module.exports = {
     // 按钮加载遮罩

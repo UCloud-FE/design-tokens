@@ -1,5 +1,5 @@
 > Do not edit directly
-> Generated with design-token-editor on 2023/7/26 19:41:44
+> Generated with design-token-editor on 2023/7/27 11:33:07
 
 | token name                          | value                                                                                                                               | display                                                             | comment                                              |
 | ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ---------------------------------------------------- |
@@ -239,7 +239,7 @@
 | T_SQUARE_LG                         | 32px                                                                                                                                |                                                                     | 大正方形的宽度/高度                                  |
 | T_SQUARE_MD                         | 28px                                                                                                                                |                                                                     | 中正方形的宽度/高度                                  |
 | T_SQUARE_SM                         | 24px                                                                                                                                |                                                                     | 小正方形的宽度/高度                                  |
-| T_SWITCH_COLOR_BG_DOT_DISABLED      | #FFF                                                                                                                                | ![#FFF](https://dummyimage.com/50/FFF/000000.png&text=FFF)          | 开关/圆点/背景色/禁用                                |
+| T_SWITCH_COLOR_BG_DOT_DISABLED      | #535763                                                                                                                             | ![#535763](https://dummyimage.com/50/535763/ACA89C.png&text=535763) | 开关/圆点/背景色/禁用                                |
 | T_SWITCH_COLOR_BG_DOT_OFF           | #db3f3f                                                                                                                             | ![#db3f3f](https://dummyimage.com/50/db3f3f/24C0C0.png&text=db3f3f) | 开关/圆点/背景色/关                                  |
 | T_SWITCH_COLOR_BG_DOT_ON            | #2b9f56                                                                                                                             | ![#2b9f56](https://dummyimage.com/50/2b9f56/D460A9.png&text=2b9f56) | 开关/圆点/背景色/开                                  |
 | T_SWITCH_COLOR_BG_INNER_OFF         | #2B3555                                                                                                                             | ![#2B3555](https://dummyimage.com/50/2B3555/D4CAAA.png&text=2B3555) | 开关/内圈/背景色/关                                  |

@@ -498,7 +498,7 @@
                             "type": "color"
                         },
                         "disabled": {
-                            "value": "{color.text.disabled}",
+                            "value": "#535763",
                             "comment": "开关/圆点/背景色/禁用",
                             "type": "color"
                         }
