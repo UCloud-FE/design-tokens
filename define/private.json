@@ -1229,7 +1229,7 @@
                         "comment": "块/常规/小"
                     },
                     "md": {
-                        "value": "0 0 1px 0 {transparent(color.base.environment_reverse, 12)}, 0 8px 12px -4px {transparent(color.base.environment_reverse, 12)}, 0 4px 4px -2px {transparent(color.base.environment_reverse, 5)}, inset 0 -2px 0 0 {transparent(color.base.environment_reverse, 8)}",
+                        "value": "inset 0 0 0 1px #dfe0f1",
                         "comment": "块/常规/中"
                     },
                     "lg": {

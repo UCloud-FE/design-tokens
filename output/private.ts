@@ -1,5 +1,5 @@
 // Do not edit directly
-// Generated with design-token-editor on 2023/7/27 11:33:10
+// Generated with design-token-editor on 2024/1/22 17:21:16
 
 module.exports = {
     // 按钮加载遮罩
@@ -397,8 +397,7 @@ module.exports = {
     T_SHADOW_BLOCK_DEFAULT_LG:
         '0 6px 16px 0 rgba(0,0,0,0.05), 0 14px 24px -8px rgba(0,0,0,0.08), 0 0 16px 0 rgba(0,0,0,0.05), inset 0 -2px 0 0 rgba(0,0,0,0.08)',
     // 块/常规/中
-    T_SHADOW_BLOCK_DEFAULT_MD:
-        '0 0 1px 0 rgba(0,0,0,0.12), 0 8px 12px -4px rgba(0,0,0,0.12), 0 4px 4px -2px rgba(0,0,0,0.05), inset 0 -2px 0 0 rgba(0,0,0,0.08)',
+    T_SHADOW_BLOCK_DEFAULT_MD: 'inset 0 0 0 1px #dfe0f1',
     // 块/常规/小
     T_SHADOW_BLOCK_DEFAULT_SM: 'inset 0 0px 0px 0px rgba(0,0,0,0)',
     // 块/左/大
