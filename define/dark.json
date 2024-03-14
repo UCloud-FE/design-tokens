@@ -560,6 +560,20 @@
                     }
                 }
             }
+        },
+        "tag": {
+            "color": {
+                "disabled": {
+                    "text": {
+                        "value": "#535763",
+                        "comment": "文本/禁用"
+                    },
+                    "border": {
+                        "value": "#2B313F",
+                        "comment": "标签边框/透明"
+                    }
+                }
+            }
         }
     },
     "external": {

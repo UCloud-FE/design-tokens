@@ -442,15 +442,27 @@
                     "value": "#00591C",
                     "comment": "辅助色/绿-9"
                 }
-            }
-        }
-    },
-    "common": {
-        "control": {
-            "_meta": {
-                "group": "表单交互控件通用变量（input、select 等）"
             },
-            "height": {
+            "disabled": {
+                "_meta": {
+                    "group": "禁用色"
+                },
+                "disabled_1": {
+                    "value": "#f7f7f7",
+                    "comment": "背景/禁用状态/浅色"
+                },
+                "disabled_2": {
+                    "value": "#cccccc",
+                    "comment": "背景&线条&文本/禁用状态/深色"
+                },
+                "disabled_3": {
+                    "value": "#d9d9d9",
+                    "comment": "线条/禁用状态/深色"
+                }
+            }
+        },
+        "height": {
+            "base": {
                 "sm": {
                     "value": "24px",
                     "comment": "小号控件高度"
@@ -463,32 +475,269 @@
                     "value": "32px",
                     "comment": "大号控件高度"
                 }
+            }
+        },
+        "spacing": {
+            "base": {
+                "xs": {
+                    "value": "4px",
+                    "comment": "icon和文本之间的间距"
+                },
+                "sm": {
+                    "value": "8px",
+                    "comment": "中号按钮左右内间距/弹窗内按钮与按钮的横向间距"
+                },
+                "md": {
+                    "value": "12px",
+                    "comment": "大号按钮左右内间距/页面内按钮与按钮横向间距"
+                },
+                "lg": {
+                    "value": "16px",
+                    "comment": "弹窗内表单间纵向间距"
+                },
+                "xlg": {
+                    "value": "20px",
+                    "comment": ""
+                },
+                "xxlg": {
+                    "value": "24px",
+                    "comment": "页面内表单间纵向间距/常规卡片间距"
+                },
+                "xxxlg": {
+                    "value": "32px",
+                    "comment": ""
+                }
+            }
+        },
+        "typo": {
+            "font_size": {
+                "base": {
+                    "font_size_1": {
+                        "value": "12px",
+                        "comment": "一般用于备注/正文，是浏览器识别的最小字号"
+                    },
+                    "font_size_2": {
+                        "value": "14px",
+                        "comment": "一般用于正文或者小标题"
+                    },
+                    "font_size_3": {
+                        "value": "16px",
+                        "comment": "一般用于标题"
+                    },
+                    "font_size_4": {
+                        "value": "18px",
+                        "comment": "一般用于数字"
+                    },
+                    "font_size_5": {
+                        "value": "20px",
+                        "comment": "一般用于标题，或者特殊场景下的文本展示"
+                    },
+                    "font_size_6": {
+                        "value": "24px",
+                        "comment": "一般用于标题，或者特殊场景下的文本展示"
+                    },
+                    "font_size_7": {
+                        "value": "28px",
+                        "comment": "一般用于标题，或者特殊场景下的文本展示"
+                    },
+                    "font_size_8": {
+                        "value": "32px",
+                        "comment": "一般用于标题，或者特殊场景下的文本展示"
+                    }
+                }
+            },
+            "line_height": {
+                "base": {
+                    "sm": {
+                        "value": "1.3",
+                        "comment": "密集的行高，字号1.3倍"
+                    },
+                    "md": {
+                        "value": "1.5",
+                        "comment": "中等的行高，字号1.5倍"
+                    },
+                    "lg": {
+                        "value": "1.7",
+                        "comment": "宽松的行高，字号1.7倍"
+                    }
+                }
+            },
+            "font_weight": {
+                "base": {
+                    "normal": {
+                        "value": "400",
+                        "comment": "默认字体粗细，常规"
+                    },
+                    "light": {
+                        "value": "300",
+                        "comment": "细体字"
+                    },
+                    "bold": {
+                        "value": "600",
+                        "comment": "粗体字"
+                    }
+                }
+            }
+        },
+        "width": {
+            "base": {
+                "sm": {
+                    "value": "144px",
+                    "comment": "小号控件宽度"
+                },
+                "md": {
+                    "value": "192px",
+                    "comment": "中号控件宽度"
+                },
+                "lg": {
+                    "value": "320px",
+                    "comment": "大号控件宽度"
+                }
+            }
+        },
+        "corner": {
+            "_meta": {
+                "group": "圆角"
+            },
+            "base": {
+                "sm": {
+                    "value": "2px",
+                    "comment": "默认圆角，常用于按钮/输入框等"
+                },
+                "lg": {
+                    "value": "4px",
+                    "comment": "大圆角，用于卡片圆角"
+                },
+                "circle": {
+                    "value": "50%",
+                    "comment": "圆形"
+                },
+                "zero": {
+                    "value": "0",
+                    "comment": "直角"
+                }
+            }
+        },
+        "square": {
+            "_meta": {
+                "group": "方块"
+            },
+
+            "base": {
+                "sm": {
+                    "value": "24px",
+                    "comment": "小正方形的宽度/高度"
+                },
+                "md": {
+                    "value": "28px",
+                    "comment": "中正方形的宽度/高度"
+                },
+                "lg": {
+                    "value": "32px",
+                    "comment": "大正方形的宽度/高度"
+                }
+            }
+        },
+        "line": {
+            "width": {
+                "base": {
+                    "value": "1px",
+                    "comment": "默认线条高"
+                },
+                "sm": {
+                    "value": "0px",
+                    "comment": "无线条"
+                },
+                "lg": {
+                    "value": "2px",
+                    "comment": "粗线条"
+                }
+            },
+            "style": {
+                "base": {
+                    "value": "solid",
+                    "comment": "默认线条，实线"
+                },
+                "dashed": {
+                    "value": "dashed",
+                    "comment": "虚线边框样式，用于添加/上传照片按钮"
+                }
+            }
+        },
+        "layer": {
+            "color": {
+                "default": {
+                    "value": "{transparent(color.base.environment_reverse,50)}",
+                    "comment": "弹窗/蒙层",
+                    "type": "color"
+                }
+            }
+        },
+        "shadow": {
+            "line": {
+                "right": {
+                    "value": "1px 0 0 0 {color.secondary.secondary_5}",
+                    "comment": "抽屉/页头/背景/线条"
+                },
+                "left": {
+                    "value": "-1px 0 0 0 {color.secondary.secondary_5}",
+                    "comment": "抽屉/页头/背景/线条"
+                },
+                "top": {
+                    "value": "0 1px 0 0 {color.secondary.secondary_5}",
+                    "comment": "抽屉/页头/背景/线条"
+                },
+                "bottom": {
+                    "value": "0 1px 0 0 {color.secondary.secondary_5}",
+                    "comment": "抽屉/页头/背景/线条"
+                }
+            }
+        }
+    },
+    "common": {
+        "control": {
+            "_meta": {
+                "group": "表单交互控件通用变量（input、select 等）"
+            },
+            "height": {
+                "sm": {
+                    "value": "{height.base.sm}",
+                    "comment": "小号控件高度"
+                },
+                "md": {
+                    "value": "{height.base.md}",
+                    "comment": "中号控件高度"
+                },
+                "lg": {
+                    "value": "{height.base.lg}",
+                    "comment": "大号控件高度"
+                }
             },
             "spacing": {
                 "sm": {
-                    "value": "8px",
+                    "value": "{spacing.base.sm}",
                     "comment": "小号控件间距"
                 },
                 "md": {
-                    "value": "8px",
+                    "value": "{spacing.base.sm}",
                     "comment": "中号控件间距"
                 },
                 "lg": {
-                    "value": "8px",
+                    "value": "{spacing.base.sm}",
                     "comment": "大号控件间距"
                 }
             },
             "font_size": {
                 "sm": {
-                    "value": "12px",
+                    "value": "{typo.font_size.base.font_size_1}",
                     "comment": "小号控件字号"
                 },
                 "md": {
-                    "value": "12px",
+                    "value": "{typo.font_size.base.font_size_1}",
                     "comment": "中号控件字号"
                 },
                 "lg": {
-                    "value": "12px",
+                    "value": "{typo.font_size.base.font_size_1}",
                     "comment": "大号控件字号"
                 }
             }
@@ -596,11 +845,11 @@
                 },
                 "disabled": {
                     "light": {
-                        "value": "#f7f7f7",
+                        "value": "{color.disabled.disabled_1}",
                         "comment": "背景/禁用状态/浅色"
                     },
                     "dark": {
-                        "value": "#cccccc",
+                        "value": "{color.disabled.disabled_2}",
                         "comment": "背景/禁用状态/深色"
                     }
                 },
@@ -691,11 +940,11 @@
                 },
                 "disabled": {
                     "light": {
-                        "value": "#d9d9d9",
+                        "value": "{color.disabled.disabled_3}",
                         "comment": "线条/禁用/浅色"
                     },
                     "dark": {
-                        "value": "#cccccc",
+                        "value": "{color.disabled.disabled_2}",
                         "comment": "线条/禁用/深色"
                     }
                 }
@@ -773,7 +1022,7 @@
                     "comment": "文本/错误/深色"
                 },
                 "disabled": {
-                    "value": "#cccccc",
+                    "value": "{color.disabled.disabled_2}",
                     "comment": "文本/禁用"
                 },
                 "system": {
@@ -1086,15 +1335,15 @@
                 "group": "高度"
             },
             "sm": {
-                "value": "24px",
+                "value": "{height.base.sm}",
                 "comment": "小号控件高度"
             },
             "md": {
-                "value": "28px",
+                "value": "{height.base.md}",
                 "comment": "中号控件高度"
             },
             "lg": {
-                "value": "32px",
+                "value": "{height.base.lg}",
                 "comment": "大号控件高度"
             }
         },
@@ -1103,15 +1352,15 @@
                 "group": "宽度"
             },
             "sm": {
-                "value": "144px",
+                "value": "{width.base.sm}",
                 "comment": "小号控件宽度"
             },
             "md": {
-                "value": "192px",
+                "value": "{width.base.md}",
                 "comment": "中号控件宽度"
             },
             "lg": {
-                "value": "320px",
+                "value": "{width.base.lg}",
                 "comment": "大号控件宽度"
             }
         },
@@ -1120,19 +1369,19 @@
                 "group": "圆角"
             },
             "sm": {
-                "value": "2px",
+                "value": "{corner.base.sm}",
                 "comment": "默认圆角，常用于按钮/输入框等"
             },
             "lg": {
-                "value": "4px",
+                "value": "{corner.base.lg}",
                 "comment": "大圆角，用于卡片圆角"
             },
             "circle": {
-                "value": "50%",
+                "value": "{corner.base.circle}",
                 "comment": "圆形"
             },
             "zero": {
-                "value": "0",
+                "value": "{corner.base.zero}",
                 "comment": "直角"
             }
         },
@@ -1141,15 +1390,15 @@
                 "group": "方块"
             },
             "sm": {
-                "value": "24px",
+                "value": "{square.base.sm}",
                 "comment": "小正方形的宽度/高度"
             },
             "md": {
-                "value": "28px",
+                "value": "{square.base.md}",
                 "comment": "中正方形的宽度/高度"
             },
             "lg": {
-                "value": "32px",
+                "value": "{square.base.lg}",
                 "comment": "大正方形的宽度/高度"
             }
         },
@@ -1159,31 +1408,31 @@
             },
             "common": {
                 "xs": {
-                    "value": "4px",
+                    "value": "{spacing.base.xs}",
                     "comment": "icon和文本之间的间距"
                 },
                 "sm": {
-                    "value": "8px",
+                    "value": "{spacing.base.sm}",
                     "comment": "中号按钮左右内间距/弹窗内按钮与按钮的横向间距"
                 },
                 "md": {
-                    "value": "12px",
+                    "value": "{spacing.base.md}",
                     "comment": "大号按钮左右内间距/页面内按钮与按钮横向间距"
                 },
                 "lg": {
-                    "value": "16px",
+                    "value": "{spacing.base.lg}",
                     "comment": "弹窗内表单间纵向间距"
                 },
                 "xlg": {
-                    "value": "20px",
+                    "value": "{spacing.base.xlg}",
                     "comment": ""
                 },
                 "xxlg": {
-                    "value": "24px",
+                    "value": "{spacing.base.xxlg}",
                     "comment": "页面内表单间纵向间距/常规卡片间距"
                 },
                 "xxxlg": {
-                    "value": "32px",
+                    "value": "{spacing.base.xxxlg}",
                     "comment": ""
                 }
             }
@@ -1303,6 +1552,24 @@
                     "value": "0 5px 8px -4px {color.assist.red_6}",
                     "comment": "按钮/错误色/hover"
                 }
+            },
+            "line": {
+                "right": {
+                    "value": "{shadow.line.right}",
+                    "comment": "抽屉/页头/背景/线条"
+                },
+                "left": {
+                    "value": "{shadow.line.left}",
+                    "comment": "抽屉/页头/背景/线条"
+                },
+                "top": {
+                    "value": "{shadow.line.top}",
+                    "comment": "抽屉/页头/背景/线条"
+                },
+                "bottom": {
+                    "value": "{shadow.line.bottom}",
+                    "comment": "抽屉/页头/背景/线条"
+                }
             }
         },
         "line": {
@@ -1311,15 +1578,15 @@
                     "group": "线条尺寸"
                 },
                 "base": {
-                    "value": "1px",
+                    "value": "{line.width.base}",
                     "comment": "默认线条高"
                 },
                 "sm": {
-                    "value": "0px",
+                    "value": "{line.width.sm}",
                     "comment": "无线条"
                 },
                 "lg": {
-                    "value": "2px",
+                    "value": "{line.width.lg}",
                     "comment": "粗线条"
                 }
             },
@@ -1328,11 +1595,11 @@
                     "group": "线条样式"
                 },
                 "base": {
-                    "value": "solid",
+                    "value": "{line.style.base}",
                     "comment": "默认线条，实线"
                 },
                 "dashed": {
-                    "value": "dashed",
+                    "value": "{line.style.dashed}",
                     "comment": "虚线边框样式，用于添加/上传照片按钮"
                 }
             }
@@ -1342,59 +1609,59 @@
                 "group": "排版"
             },
             "font_size_1": {
-                "value": "12px",
+                "value": "{typo.font_size.base.font_size_1}",
                 "comment": "一般用于备注/正文，是浏览器识别的最小字号"
             },
             "font_size_2": {
-                "value": "14px",
+                "value": "{typo.font_size.base.font_size_2}",
                 "comment": "一般用于正文或者小标题"
             },
             "font_size_3": {
-                "value": "16px",
+                "value": "{typo.font_size.base.font_size_3}",
                 "comment": "一般用于标题"
             },
             "font_size_4": {
-                "value": "18px",
+                "value": "{typo.font_size.base.font_size_4}",
                 "comment": "一般用于数字"
             },
             "font_size_5": {
-                "value": "20px",
+                "value": "{typo.font_size.base.font_size_5}",
                 "comment": "一般用于标题，或者特殊场景下的文本展示"
             },
             "font_size_6": {
-                "value": "24px",
+                "value": "{typo.font_size.base.font_size_6}",
                 "comment": "一般用于标题，或者特殊场景下的文本展示"
             },
             "font_size_7": {
-                "value": "28px",
+                "value": "{typo.font_size.base.font_size_7}",
                 "comment": "一般用于标题，或者特殊场景下的文本展示"
             },
             "font_size_8": {
-                "value": "32px",
+                "value": "{typo.font_size.base.font_size_8}",
                 "comment": "一般用于标题，或者特殊场景下的文本展示"
             },
             "line_height_sm": {
-                "value": "1.3",
+                "value": "{typo.line_height.base.sm}",
                 "comment": "密集的行高，字号1.3倍"
             },
             "line_height_md": {
-                "value": "1.5",
+                "value": "{typo.line_height.base.md}",
                 "comment": "中等的行高，字号1.5倍"
             },
             "line_height_lg": {
-                "value": "1.7",
+                "value": "{typo.line_height.base.lg}",
                 "comment": "宽松的行高，字号1.7倍"
             },
             "font_weight_normal": {
-                "value": "400",
+                "value": "{typo.font_weight.base.normal}",
                 "comment": "默认字体粗细，常规"
             },
             "font_weight_light": {
-                "value": "300",
+                "value": "{typo.font_weight.base.light}",
                 "comment": "细体字"
             },
             "font_weight_bold": {
-                "value": "600",
+                "value": "{typo.font_weight.base.bold}",
                 "comment": "粗体字"
             }
         }
@@ -1419,7 +1686,7 @@
             "item": {
                 "spacing": {
                     "vertical": {
-                        "value": "16px",
+                        "value": "{spacing.base.lg}",
                         "comment": "表单项/垂直间距"
                     }
                 }
@@ -1521,6 +1788,135 @@
                         "type": "color"
                     }
                 }
+            },
+            "close": {
+                "bg": {
+                    "color": {
+                        "default": {
+                            "value": "{transparent(color.base.environment_reverse,30)}",
+                            "comment": "抽屉/关闭操作/背景/默认/颜色",
+                            "type": "color"
+                        },
+                        "hover": {
+                            "value": "{transparent(color.base.environment_reverse,50)}",
+                            "comment": "抽屉/关闭操作/背景/悬停/颜色",
+                            "type": "color"
+                        }
+                    },
+                    "size": {
+                        "default": {
+                            "value": "{square.base.lg}",
+                            "comment": "抽屉/关闭操作/背景/默认/尺寸"
+                        },
+                        "hover": {
+                            "value": "{square.base.lg}",
+                            "comment": "抽屉/关闭操作/背景/悬停/尺寸"
+                        }
+                    }
+                },
+                "icon": {
+                    "color": {
+                        "default": {
+                            "value": "{color.base.white}",
+                            "comment": "抽屉/关闭操作/icon/默认/颜色",
+                            "type": "color"
+                        },
+                        "hover": {
+                            "value": "{color.base.white}",
+                            "comment": "抽屉/关闭操作/icon/悬停/颜色",
+                            "type": "color"
+                        }
+                    },
+                    "size": {
+                        "default": {
+                            "value": "{typo.font_size.base.font_size_2}",
+                            "comment": "抽屉/关闭操作/icon/默认/尺寸"
+                        },
+                        "hover": {
+                            "value": "{typo.font_size.base.font_size_2}",
+                            "comment": "抽屉/关闭操作/icon/悬停/尺寸"
+                        }
+                    }
+                }
+            },
+            "header": {
+                "title": {
+                    "color": {
+                        "default": {
+                            "value": "{color.base.black}",
+                            "comment": "抽屉/页头/标题/默认/颜色",
+                            "type": "color"
+                        }
+                    }
+                },
+                "size": {
+                    "default": {
+                        "value": "{typo.font_size.base.font_size_2}",
+                        "comment": "抽屉/页头/标题/默认/尺寸"
+                    }
+                },
+                "bg": {
+                    "color": {
+                        "default": {
+                            "value": "{color.base.white}",
+                            "comment": "抽屉/页头/标题背景/默认/颜色",
+                            "type": "color"
+                        }
+                    },
+                    "shadow": {
+                        "default": {
+                            "value": "{shadow.line.bottom}",
+                            "comment": "抽屉/页头/标题背景/默认/阴影"
+                        }
+                    }
+                },
+                "padding": {
+                    "vertical": {
+                        "value": "{spacing.base.lg}",
+                        "comment": "抽屉/页头/背景/内间距（纵向）"
+                    },
+                    "horizonal": {
+                        "value": "{spacing.base.xxlg}",
+                        "comment": "抽屉/页头/背景/内间距（横向）"
+                    }
+                }
+            },
+            "content": {
+                "bg": {
+                    "color": {
+                        "value": "{color.gradient.content_1}",
+                        "comment": "抽屉/内容/背景/颜色"
+                    }
+                },
+                "padding": {
+                    "value": "{spacing.base.xxlg}",
+                    "comment": "抽屉/内容/背景/内间距"
+                }
+            },
+            "mask": {
+                "color": {
+                    "value": "{transparent(color.base.environment_reverse,50)}",
+                    "comment": "抽屉/蒙层/颜色"
+                }
+            },
+            "shadow": {
+                "left": {
+                    "value": "-46px 0 24px -35px {transparent(color.base.environment_reverse,5)},-25px 0 10px -16px {transparent(color.base.environment_reverse,5)},-10px 0 6px -6px {transparent(color.base.environment_reverse,5)}",
+                    "comment": "抽屉/左边/阴影"
+                },
+                "right": {
+                    "value": "46px 0 24px -35px {transparent(color.base.environment_reverse,5)},25px 0 10px -16px {transparent(color.base.environment_reverse,5)},10px 0 6px -6px {transparent(color.base.environment_reverse,5)}",
+                    "comment": "抽屉/右边/阴影"
+                },
+                "top": {
+                    "value": "0 -46px 24px -35px {transparent(color.base.environment_reverse,5)},0 -25px 10px -16px {transparent(color.base.environment_reverse,5)},0 -10px 6px -6px {transparent(color.base.environment_reverse,5)}",
+                    "comment": "抽屉/上边/阴影"
+                },
+
+                "bottom": {
+                    "value": "0 46px 24px -35px {transparent(color.base.environment_reverse,5)},0 25px 10px -16px {transparent(color.base.environment_reverse,5)},0 10px 6px -6px {transparent(color.base.environment_reverse,5)}",
+                    "comment": "抽屉/下边/阴影"
+                }
             }
         },
         "loading": {
@@ -1617,7 +2013,7 @@
                             "type": "color"
                         },
                         "disabled": {
-                            "value": "#cccccc",
+                            "value": "{color.disabled.disabled_2}",
                             "comment": "开关/圆点/背景色/禁用",
                             "type": "color"
                         }
@@ -1705,6 +2101,14 @@
                             "comment": "表格/标题/背景色",
                             "type": "color"
                         }
+                    },
+                    "bg2": {
+                        "value": "{color.base.white}",
+                        "comment": "表格/标题/二级背景色"
+                    },
+                    "icon": {
+                        "value": "{color.base.black}",
+                        "comment": "表格/标题/icon/颜色"
                     }
                 }
             }
@@ -1721,6 +2125,452 @@
                         "value": "{color.secondary.secondary_2}",
                         "comment": "骨架屏/背景色/浅色",
                         "type": "color"
+                    }
+                }
+            }
+        },
+        "tag": {
+            "height": {
+                "sm": {
+                    "value": "20px",
+                    "comment": "小号控件高度"
+                },
+                "md": {
+                    "value": "{height.base.sm}",
+                    "comment": "中号控件高度"
+                },
+                "lg": {
+                    "value": "{height.base.md}",
+                    "comment": "大号控件高度"
+                }
+            },
+
+            "border": {
+                "radius": {
+                    "value": "{corner.base.sm}",
+                    "comment": "圆角，常用于TAG圆角"
+                }
+            },
+            "icon": {
+                "close": {
+                    "value": "{color.base.environment}",
+                    "comment": "icon最小宽度"
+                },
+                "width": {
+                    "sm": {
+                        "value": "10px",
+                        "comment": "icon最小宽度"
+                    }
+                },
+                "opacity": {
+                    "default": {
+                        "value": "1",
+                        "comment": "标签关闭按钮/透明度"
+                    },
+                    "hover": {
+                        "value": "1",
+                        "comment": "标签关闭按钮/透明度/hover"
+                    }
+                },
+                "size": {
+                    "xs": {
+                        "value": "6px",
+                        "comment": "Tag小号icon"
+                    },
+                    "sm": {
+                        "value": "10px",
+                        "comment": "Tag小号icon"
+                    },
+                    "md": {
+                        "value": "12px",
+                        "comment": "Tag中号icon"
+                    },
+                    "lg": {
+                        "value": "14px",
+                        "comment": "Tag大号icon"
+                    }
+                }
+            },
+            "color": {
+                "disabled": {
+                    "bg": {
+                        "light": {
+                            "value": "{color.disabled.disabled_1}",
+                            "comment": "标签背景/禁用"
+                        },
+                        "dark": {
+                            "value": "{color.disabled.disabled_1}",
+                            "comment": "标签背景/禁用"
+                        }
+                    },
+                    "icon": {
+                        "value": "{color.disabled.disabled_2}",
+                        "comment": "内置icon/禁用"
+                    },
+                    "text": {
+                        "value": "{color.disabled.disabled_2}",
+                        "comment": "文本/禁用"
+                    },
+                    "border": {
+                        "value": "{color.disabled.disabled_3}",
+                        "comment": "线条/禁用/浅色"
+                    },
+                    "divider": {
+                        "value": "{color.disabled.disabled_3}",
+                        "comment": "紧凑模式下分割线"
+                    }
+                },
+                "gray": {
+                    "bg": {
+                        "light": {
+                            "value": "{color.secondary.secondary_1}",
+                            "comment": "背景/提示状态/浅色"
+                        },
+                        "dark": {
+                            "value": "{color.secondary.secondary_9}",
+                            "comment": "背景/提示状态/深色"
+                        }
+                    },
+                    "icon": {
+                        "value": "{color.secondary.secondary_9}",
+                        "comment": "内置icon/黑色"
+                    },
+                    "text": {
+                        "value": "{color.secondary.secondary_9}",
+                        "comment": "标签文案/黑色",
+                        "type": "color"
+                    },
+                    "border": {
+                        "value": "{color.secondary.secondary_5}",
+                        "comment": "标签边框/亮"
+                    },
+                    "divider": {
+                        "value": "{color.secondary.secondary_5}",
+                        "comment": "紧凑模式下分割线"
+                    }
+                },
+                "green": {
+                    "bg": {
+                        "light": {
+                            "value": "{color.assist.green_1}",
+                            "comment": "背景/成功状态/浅色"
+                        },
+                        "dark": {
+                            "value": "{color.assist.green_6}",
+                            "comment": "背景/成功状态/深色"
+                        }
+                    },
+                    "icon": {
+                        "value": "{color.assist.green_6}",
+                        "comment": "内置icon/正确"
+                    },
+                    "text": {
+                        "value": "{color.assist.green_6}",
+                        "comment": "文本/正确"
+                    },
+                    "border": {
+                        "value": "{color.assist.green_3}",
+                        "comment": "线条/正确/浅色"
+                    },
+                    "divider": {
+                        "value": "{color.assist.green_3}",
+                        "comment": "紧凑模式下分割线"
+                    }
+                },
+                "yellow": {
+                    "bg": {
+                        "light": {
+                            "value": "{color.assist.yellow_1}",
+                            "comment": "背景/警告状态/浅色"
+                        },
+                        "dark": {
+                            "value": "{color.assist.yellow_6}",
+                            "comment": "背景/警告状态/深色"
+                        }
+                    },
+                    "fillbg": {
+                        "light": {
+                            "value": "{color.assist.yellow_6}",
+                            "comment": "图例/黄-6"
+                        },
+                        "dark": {
+                            "value": "{color.assist.yellow_7}",
+                            "comment": "图例/黄-7"
+                        }
+                    },
+                    "icon": {
+                        "value": "{color.assist.yellow_6}",
+                        "comment": "内置icon/警告"
+                    },
+                    "text": {
+                        "value": "{color.assist.yellow_6}",
+                        "comment": "文本/警告"
+                    },
+                    "border": {
+                        "value": "{color.assist.yellow_3}",
+                        "comment": "线条/警告/浅色"
+                    },
+                    "divider": {
+                        "value": "{color.assist.yellow_3}",
+                        "comment": "紧凑模式下分割线"
+                    }
+                },
+                "red": {
+                    "bg": {
+                        "light": {
+                            "value": "{color.assist.red_1}",
+                            "comment": "背景/错误状态/浅色"
+                        },
+                        "dark": {
+                            "value": "{color.assist.red_6}",
+                            "comment": "背景/错误状态/深色"
+                        }
+                    },
+                    "fillbg": {
+                        "light": {
+                            "value": "{color.assist.red_6}",
+                            "comment": "图例/红-6"
+                        },
+                        "dark": {
+                            "value": "{color.assist.red_7}",
+                            "comment": "图例/红-7"
+                        }
+                    },
+                    "icon": {
+                        "value": "{color.assist.red_6}",
+                        "comment": "内置icon/错误"
+                    },
+                    "text": {
+                        "value": "{color.assist.red_6}",
+                        "comment": "文本/错误"
+                    },
+                    "border": {
+                        "value": "{color.assist.red_3}",
+                        "comment": "线条/错误/浅色"
+                    },
+                    "divider": {
+                        "value": "{color.assist.red_3}",
+                        "comment": "紧凑模式下分割线"
+                    }
+                },
+                "primary": {
+                    "bg": {
+                        "light": {
+                            "value": "{color.primary.primary_8}",
+                            "comment": "背景/纯色/品牌色1"
+                        },
+                        "dark": {
+                            "value": "{color.primary.primary_9}",
+                            "comment": "背景/纯色/品牌色2"
+                        }
+                    },
+                    "icon": {
+                        "value": "{color.base.environment}",
+                        "comment": "内置icon/系统白色文本"
+                    },
+                    "text": {
+                        "value": "{color.base.environment}",
+                        "comment": "系统白色文本"
+                    },
+                    "border": {
+                        "value": "{color.primary.primary_8}",
+                        "comment": "线条/主色"
+                    },
+                    "divider": {
+                        "value": "{color.primary.primary_8}",
+                        "comment": "紧凑模式下分割线"
+                    }
+                },
+                "purple": {
+                    "bg": {
+                        "light": {
+                            "value": "{color.assist.purple_1}",
+                            "comment": "图例/紫-1"
+                        },
+                        "dark": {
+                            "value": "{color.assist.purple_5}",
+                            "comment": "图例/紫-5"
+                        }
+                    },
+                    "fillbg": {
+                        "light": {
+                            "value": "{color.assist.purple_6}",
+                            "comment": "图例/紫-6"
+                        },
+                        "dark": {
+                            "value": "{color.assist.purple_7}",
+                            "comment": "图例/紫-7"
+                        }
+                    },
+                    "icon": {
+                        "value": "{color.assist.purple_5}",
+                        "comment": "内置icon/紫-5"
+                    },
+                    "text": {
+                        "value": "{color.assist.purple_5}",
+                        "comment": "图例/紫-5"
+                    },
+                    "border": {
+                        "value": "{color.assist.purple_2}",
+                        "comment": "图例/紫-2"
+                    },
+                    "divider": {
+                        "value": "{color.assist.purple_2}",
+                        "comment": "紧凑模式下分割线"
+                    }
+                },
+                "lightblue": {
+                    "bg": {
+                        "light": {
+                            "value": "{color.assist.lightblue_1}",
+                            "comment": "图例/浅蓝-1"
+                        },
+                        "dark": {
+                            "value": "{color.assist.lightblue_5}",
+                            "comment": "图例/浅蓝-5"
+                        }
+                    },
+                    "fillbg": {
+                        "light": {
+                            "value": "{color.assist.lightblue_6}",
+                            "comment": "图例/浅蓝-6"
+                        },
+                        "dark": {
+                            "value": "{color.assist.lightblue_7}",
+                            "comment": "图例/浅蓝-7"
+                        }
+                    },
+                    "icon": {
+                        "value": "{color.assist.lightblue_5}",
+                        "comment": "内置icon/浅蓝-5"
+                    },
+                    "text": {
+                        "value": "{color.assist.lightblue_5}",
+                        "comment": "图例/浅蓝-5"
+                    },
+                    "border": {
+                        "value": "{color.assist.lightblue_2}",
+                        "comment": "图例/浅蓝-2"
+                    },
+                    "divider": {
+                        "value": "{color.assist.lightblue_2}",
+                        "comment": "紧凑模式下分割线"
+                    }
+                },
+                "blue": {
+                    "bg": {
+                        "light": {
+                            "value": "{color.assist.blue_1}",
+                            "comment": "图例/蓝-1"
+                        },
+                        "dark": {
+                            "value": "{color.assist.blue_5}",
+                            "comment": "图例/蓝-5"
+                        }
+                    },
+                    "fillbg": {
+                        "light": {
+                            "value": "{color.assist.blue_6}",
+                            "comment": "图例/蓝-6"
+                        },
+                        "dark": {
+                            "value": "{color.assist.blue_7}",
+                            "comment": "图例/蓝-7"
+                        }
+                    },
+                    "icon": {
+                        "value": "{color.assist.blue_5}",
+                        "comment": "内置icon/蓝-5"
+                    },
+                    "text": {
+                        "value": "{color.assist.blue_5}",
+                        "comment": "图例/蓝-5"
+                    },
+                    "border": {
+                        "value": "{color.assist.blue_2}",
+                        "comment": "图例/蓝-2"
+                    },
+                    "divider": {
+                        "value": "{color.assist.blue_2}",
+                        "comment": "紧凑模式下分割线"
+                    }
+                },
+
+                "orange": {
+                    "bg": {
+                        "light": {
+                            "value": "{color.assist.orange_1}",
+                            "comment": "图例/橙-1"
+                        },
+                        "dark": {
+                            "value": "{color.assist.orange_5}",
+                            "comment": "图例/橙-5"
+                        }
+                    },
+                    "fillbg": {
+                        "light": {
+                            "value": "{color.assist.orange_6}",
+                            "comment": "图例/橙-6"
+                        },
+                        "dark": {
+                            "value": "{color.assist.orange_7}",
+                            "comment": "图例/橙-7"
+                        }
+                    },
+                    "icon": {
+                        "value": "{color.assist.orange_5}",
+                        "comment": "内置icon/橙-5"
+                    },
+                    "text": {
+                        "value": "{color.assist.orange_5}",
+                        "comment": "图例/橙-5"
+                    },
+                    "border": {
+                        "value": "{color.assist.orange_2}",
+                        "comment": "图例/橙-2"
+                    },
+                    "divider": {
+                        "value": "{color.assist.orange_2}",
+                        "comment": "紧凑模式下分割线"
+                    }
+                },
+
+                "cyan": {
+                    "bg": {
+                        "light": {
+                            "value": "{color.assist.cyan_1}",
+                            "comment": "图例/青-1"
+                        },
+                        "dark": {
+                            "value": "{color.assist.cyan_5}",
+                            "comment": "图例/青-5"
+                        }
+                    },
+                    "fillbg": {
+                        "light": {
+                            "value": "{color.assist.cyan_6}",
+                            "comment": "图例/青-6"
+                        },
+                        "dark": {
+                            "value": "{color.assist.cyan_7}",
+                            "comment": "图例/青-7"
+                        }
+                    },
+                    "icon": {
+                        "value": "{color.assist.cyan_5}",
+                        "comment": "内置icon/青-5"
+                    },
+                    "text": {
+                        "value": "{color.assist.cyan_5}",
+                        "comment": "图例/青-5"
+                    },
+                    "border": {
+                        "value": "{color.assist.cyan_2}",
+                        "comment": "图例/青-2"
+                    },
+                    "divider": {
+                        "value": "{color.assist.cyan_2}",
+                        "comment": "紧凑模式下分割线"
                     }
                 }
             }
@@ -1844,8 +2694,8 @@
             "color": {
                 "layer": {
                     "default": {
-                        "value": "{transparent(color.base.environment_reverse,50)}",
-                        "comment": "弹窗/蒙层",
+                        "value": "{layer.color.default}",
+                        "comment": "弹窗/抽屉/通用/蒙层",
                         "type": "color"
                     }
                 }
