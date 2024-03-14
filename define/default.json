@@ -1409,6 +1409,10 @@
                         "type": "color"
                     }
                 }
+            },
+            "outside_padding": {
+                "value": "24px",
+                "comment": "卡片/外边距"
             }
         },
         "form": {
@@ -1749,7 +1753,7 @@
                             "type": "color"
                         },
                         "action": {
-                            "value": "{transparent(color.base.black,12)}",
+                            "value": "{transparent(color.base.environment_reverse,05)}",
                             "comment": "代码编辑器/只读/背景色/操作",
                             "type": "color"
                         }

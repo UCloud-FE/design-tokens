@@ -1,5 +1,5 @@
 // Do not edit directly
-// Generated with design-token-editor on 2024/1/22 18:45:10
+// Generated with design-token-editor on 2024/3/11 14:56:51
 
 module.exports = {
     // 按钮加载遮罩
@@ -14,6 +14,8 @@ module.exports = {
     T_BUTTON_SECONDARY_COLOR_BG_DEFAULT: '#ffffff',
     // 卡片/背景色
     T_CARD_COLOR_BG_DEFAULT: '#ffffff',
+    // 卡片/外边距
+    T_CARD_OUTSIDE_PADDING: '20px',
     // 图表/时间范围选择器/背景色
     T_CHART_TIMEPICKER_BG_DEFAULT: '#EAEEFD',
     // 图表/时间范围选择器/icon
@@ -217,7 +219,7 @@ module.exports = {
     // 线条/常规/深色
     T_COLOR_LINE_DEFAULT_DARK: '#d2d6ea',
     // 线条/常规/浅色
-    T_COLOR_LINE_DEFAULT_LIGHT: '#efeff8',
+    T_COLOR_LINE_DEFAULT_LIGHT: '#dfe0f1',
     // 线条/常规/透明
     T_COLOR_LINE_DEFAULT_TRANSPARENT: 'transparent',
     // 线条/禁用/深色
@@ -293,7 +295,7 @@ module.exports = {
     // 中号控件高度
     T_CONTROL_HEIGHT_MD: '32px',
     // 小号控件高度
-    T_CONTROL_HEIGHT_SM: '24px',
+    T_CONTROL_HEIGHT_SM: '20px',
     // 大号控件间距
     T_CONTROL_SPACING_LG: '12px',
     // 中号控件间距
@@ -313,7 +315,7 @@ module.exports = {
     // 抽屉/操作/背景/悬停
     T_DRAWER_RESIZER_BG_HOVER: 'rgba(0,0,0,0.5)',
     // 表单项/垂直间距
-    T_FORM_ITEM_SPACING_VERTICAL: '16px',
+    T_FORM_ITEM_SPACING_VERTICAL: '8px',
     // 顶部导航左侧LOGO背景色
     T_FRAME_LOGO_COLOR_BG_DEFAULT: '#3357df',
     // 全部产品列表/图标颜色
@@ -339,7 +341,7 @@ module.exports = {
     // 代码编辑器/读写/背景色/默认
     T_IDE_DEFAULT_COLOR_BG_DEFAULT: '#0a1633',
     // 代码编辑器/只读/背景色/操作
-    T_IDE_READONLY_COLOR_BG_ACTION: 'rgba(10,22,51,0.12)',
+    T_IDE_READONLY_COLOR_BG_ACTION: 'rgba(0,0,0,0.05)',
     // 代码编辑器/只读/背景色/默认
     T_IDE_READONLY_COLOR_BG_DEFAULT: '#f6f6fb',
     // 输入框/背景色/激活
@@ -459,7 +461,7 @@ module.exports = {
     // 大号按钮左右内间距/页面内按钮与按钮横向间距
     T_SPACING_COMMON_MD: '12px',
     // 中号按钮左右内间距/弹窗内按钮与按钮的横向间距
-    T_SPACING_COMMON_SM: '12px',
+    T_SPACING_COMMON_SM: '8px',
     //
     T_SPACING_COMMON_XLG: '20px',
     // icon和文本之间的间距

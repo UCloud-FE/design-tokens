@@ -1,5 +1,5 @@
 > Do not edit directly
-> Generated with design-token-editor on 2024/1/22 18:45:11
+> Generated with design-token-editor on 2024/3/11 14:56:52
 
 | token name                          | value                                                                                                                               | display                                                             | comment                                              |
 | ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ---------------------------------------------------- |
@@ -9,6 +9,7 @@
 | T_BUTTON_PRIMARY_COLOR_TEXT_DEFAULT | #ffffff                                                                                                                             | ![#ffffff](https://dummyimage.com/50/ffffff/000000.png&text=ffffff) | 按钮/主/文本色                                       |
 | T_BUTTON_SECONDARY_COLOR_BG_DEFAULT | #ffffff                                                                                                                             | ![#ffffff](https://dummyimage.com/50/ffffff/000000.png&text=ffffff) | 按钮/次/背景色                                       |
 | T_CARD_COLOR_BG_DEFAULT             | #ffffff                                                                                                                             | ![#ffffff](https://dummyimage.com/50/ffffff/000000.png&text=ffffff) | 卡片/背景色                                          |
+| T_CARD_OUTSIDE_PADDING              | 24px                                                                                                                                |                                                                     | 卡片/外边距                                          |
 | T_CHART_TIMEPICKER_BG_DEFAULT       | #eaf0fd                                                                                                                             | ![#eaf0fd](https://dummyimage.com/50/eaf0fd/150F02.png&text=eaf0fd) | 图表/时间范围选择器/背景色                           |
 | T_CHART_TIMEPICKER_ICON_DEFAULT     | #6f9ffa                                                                                                                             | ![#6f9ffa](https://dummyimage.com/50/6f9ffa/906005.png&text=6f9ffa) | 图表/时间范围选择器/icon                             |
 | T_COLOR_BG_CONTENT_1                | linear-gradient(180deg, #ebedf5 0%, #ebedf5 100%)                                                                                   |                                                                     | 背景/渐变/内容区                                     |

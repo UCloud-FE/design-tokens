@@ -33,6 +33,10 @@
                 "special_1": {
                     "value": "#e7e9f3",
                     "comment": "特殊色1"
+                },
+                "special_2": {
+                    "value": "#dfe0f1",
+                    "comment": "特殊色2"
                 }
             },
             "primary": {
@@ -452,7 +456,7 @@
             },
             "height": {
                 "sm": {
-                    "value": "24px",
+                    "value": "20px",
                     "comment": "小号控件高度"
                 },
                 "md": {
@@ -623,7 +627,7 @@
                 },
                 "default": {
                     "light": {
-                        "value": "{color.secondary.secondary_3}",
+                        "value": "{color.special.special_2}",
                         "comment": "线条/常规/浅色"
                     },
                     "dark": {
@@ -1163,7 +1167,7 @@
                     "comment": "icon和文本之间的间距"
                 },
                 "sm": {
-                    "value": "12px",
+                    "value": "8px",
                     "comment": "中号按钮左右内间距/弹窗内按钮与按钮的横向间距"
                 },
                 "md": {
@@ -1229,7 +1233,7 @@
                         "comment": "块/常规/小"
                     },
                     "md": {
-                        "value": "inset 0 0 0 1px #dfe0f1",
+                        "value": "inset 0 0 0 1px {color.special.special_2}",
                         "comment": "块/常规/中"
                     },
                     "lg": {
@@ -1409,13 +1413,17 @@
                         "type": "color"
                     }
                 }
+            },
+            "outside_padding": {
+                "value": "20px",
+                "comment": "卡片/外边距"
             }
         },
         "form": {
             "item": {
                 "spacing": {
                     "vertical": {
-                        "value": "16px",
+                        "value": "8px",
                         "comment": "表单项/垂直间距"
                     }
                 }
@@ -1749,7 +1757,7 @@
                             "type": "color"
                         },
                         "action": {
-                            "value": "{transparent(color.base.black,12)}",
+                            "value": "{transparent(color.base.environment_reverse,05)}",
                             "comment": "代码编辑器/只读/背景色/操作",
                             "type": "color"
                         }

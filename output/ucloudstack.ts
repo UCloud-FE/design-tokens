@@ -1,5 +1,5 @@
 // Do not edit directly
-// Generated with design-token-editor on 2024/1/22 18:45:10
+// Generated with design-token-editor on 2024/3/11 14:56:52
 
 module.exports = {
     // 按钮加载遮罩
@@ -14,6 +14,8 @@ module.exports = {
     T_BUTTON_SECONDARY_COLOR_BG_DEFAULT: '#ffffff',
     // 卡片/背景色
     T_CARD_COLOR_BG_DEFAULT: '#ffffff',
+    // 卡片/外边距
+    T_CARD_OUTSIDE_PADDING: '24px',
     // 图表/时间范围选择器/背景色
     T_CHART_TIMEPICKER_BG_DEFAULT: '#eaf0fd',
     // 图表/时间范围选择器/icon
