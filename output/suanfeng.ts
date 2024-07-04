@@ -1,13 +1,13 @@
 // Do not edit directly
-// Generated with design-token-editor on 2024/6/7 17:21:00
+// Generated with design-token-editor on 2024/6/12 19:03:01
 
 module.exports = {
     // 按钮加载遮罩
     T_BUTTON_COMMON_COLOR_MASK: '#ffffff',
     // 按钮/主/背景色
-    T_BUTTON_PRIMARY_COLOR_BG_DEFAULT: 'linear-gradient(135deg, #4c7be7 0%,#4069c6 100%)',
+    T_BUTTON_PRIMARY_COLOR_BG_DEFAULT: 'linear-gradient(135deg, #204D93 0%,#001D3D 100%)',
     // 按钮/主/背景色/hover
-    T_BUTTON_PRIMARY_COLOR_BG_HOVER: 'linear-gradient(135deg, #4069c6 0%,#2f4a97 100%)',
+    T_BUTTON_PRIMARY_COLOR_BG_HOVER: 'linear-gradient(135deg, #2A5CA9 0%,#002855 100%)',
     // 按钮/主/文本色
     T_BUTTON_PRIMARY_COLOR_TEXT_DEFAULT: '#ffffff',
     // 按钮/次/背景色
@@ -17,9 +17,9 @@ module.exports = {
     // 卡片/外边距
     T_CARD_OUTSIDE_PADDING: '24px',
     // 图表/时间范围选择器/背景色
-    T_CHART_TIMEPICKER_BG_DEFAULT: '#eaf0fd',
+    T_CHART_TIMEPICKER_BG_DEFAULT: '#DBECFF',
     // 图表/时间范围选择器/icon
-    T_CHART_TIMEPICKER_ICON_DEFAULT: '#6f9ffa',
+    T_CHART_TIMEPICKER_ICON_DEFAULT: '#204D93',
     // 背景/渐变/内容区
     T_COLOR_BG_CONTENT_1: 'linear-gradient(180deg, #ebedf5 0%, #ebedf5 100%)',
     // 背景/常规/亮色
@@ -27,7 +27,7 @@ module.exports = {
     // 背景/常规/深色
     T_COLOR_BG_DEFAULT_DARK: '#f6f6fb',
     // 背景/常规/hover
-    T_COLOR_BG_DEFAULT_HOVER: '#c1d4fa',
+    T_COLOR_BG_DEFAULT_HOVER: '#BFDCFC',
     // 背景/常规/浅色
     T_COLOR_BG_DEFAULT_LIGHT: '#fafafc',
     // 背景/常规/默认色，替换为T_COLOR_BG_DEFAULT_BRIGHT
@@ -49,15 +49,15 @@ module.exports = {
     // 背景/提示状态/浅色
     T_COLOR_BG_NOTICE_LIGHT: '#fafafc',
     // 背景/纯色/品牌色1
-    T_COLOR_BG_PRIMARY_1: '#3569E2',
+    T_COLOR_BG_PRIMARY_1: '#002855',
     // 背景/纯色/品牌色2
-    T_COLOR_BG_PRIMARY_2: '#355EB9',
+    T_COLOR_BG_PRIMARY_2: '#001D3D',
     // 背景/渐变/品牌色3
-    T_COLOR_BG_PRIMARY_3: 'linear-gradient(135deg, #4c7be7 0%,#4069c6 100%)',
+    T_COLOR_BG_PRIMARY_3: 'linear-gradient(135deg, #204D93 0%,#001D3D 100%)',
     // 背景/渐变/品牌色4
-    T_COLOR_BG_PRIMARY_4: 'linear-gradient(135deg, #4069c6 0%,#2f4a97 100%)',
+    T_COLOR_BG_PRIMARY_4: 'linear-gradient(135deg, #2A5CA9 0%,#002855 100%)',
     // 背景/浅色/品牌色5
-    T_COLOR_BG_PRIMARY_5: '#eaf1ff',
+    T_COLOR_BG_PRIMARY_5: '#EBF5FF',
     // 背景/侧边栏
     T_COLOR_BG_SIDEBAR: '#e7e9f3',
     // 背景/成功状态/深色
@@ -235,11 +235,11 @@ module.exports = {
     // 线条/提示/浅色
     T_COLOR_LINE_NOTICE_LIGHT: '#d2d6ea',
     // 线条/主色
-    T_COLOR_LINE_PRIMARY_DEFAULT: '#3569E2',
+    T_COLOR_LINE_PRIMARY_DEFAULT: '#002855',
     // 线条/主色/hover
-    T_COLOR_LINE_PRIMARY_HOVER: '#355EB9',
+    T_COLOR_LINE_PRIMARY_HOVER: '#001D3D',
     // 线条/浅色
-    T_COLOR_LINE_PRIMARY_LIGHT: '#c1d4fa',
+    T_COLOR_LINE_PRIMARY_LIGHT: '#BFDCFC',
     // 线条/正确/深色
     T_COLOR_LINE_SUCCESS_DARK: '#15AD31',
     // 线条/正确/浅色
@@ -251,7 +251,7 @@ module.exports = {
     // 文本/常规/亮色
     T_COLOR_TEXT_DEFAULT_BRIGHT: '#ffffff',
     // 文本/常规/深色
-    T_COLOR_TEXT_DEFAULT_DARK: '#1c2e64',
+    T_COLOR_TEXT_DEFAULT_DARK: '#0a1633',
     // 文本/常规/浅色
     T_COLOR_TEXT_DEFAULT_LIGHT: '#526075',
     // 文本/常规/默认色，替换为T_COLOR_TEXT_DEFAULT_BRIGHT
@@ -263,13 +263,13 @@ module.exports = {
     // 文本/错误/深色
     T_COLOR_TEXT_ERROR_DARK: '#5a0c06',
     // 文本/主色
-    T_COLOR_TEXT_PRIMARY_DEFAULT: '#3569E2',
+    T_COLOR_TEXT_PRIMARY_DEFAULT: '#002855',
     // 文本/主色/hover
-    T_COLOR_TEXT_PRIMARY_HOVER: '#355EB9',
+    T_COLOR_TEXT_PRIMARY_HOVER: '#001D3D',
     // 文本/备注/深色
     T_COLOR_TEXT_REMARK_DARK: '#7a8baa',
     // 文本/备注/浅色
-    T_COLOR_TEXT_REMARK_LIGHT: 'rgba(10,22,51,0.20)',
+    T_COLOR_TEXT_REMARK_LIGHT: 'rgba(10,22,51,0.2)',
     // 文本/正确
     T_COLOR_TEXT_SUCCESS: '#15AD31',
     // 文本/正确/深色
@@ -341,7 +341,7 @@ module.exports = {
     // 抽屉/页头/标题/默认/尺寸
     T_DRAWER_HEADER_SIZE_DEFAULT: '14px',
     // 抽屉/页头/标题/默认/颜色
-    T_DRAWER_HEADER_TITLE_COLOR_DEFAULT: '#1c2e64',
+    T_DRAWER_HEADER_TITLE_COLOR_DEFAULT: '#0a1633',
     // 抽屉/蒙层/颜色
     T_DRAWER_MASK_COLOR: 'rgba(0,0,0,0.5)',
     // 抽屉/操作/背景/默认
@@ -363,31 +363,19 @@ module.exports = {
     // 表单项/垂直间距
     T_FORM_ITEM_SPACING_VERTICAL: '16px',
     // 顶部导航左侧LOGO背景色
-    T_FRAME_LOGO_COLOR_BG_DEFAULT: 'linear-gradient(180deg, #355EB9 0%,#1c2e64 100%)',
+    T_FRAME_LOGO_COLOR_BG_DEFAULT: '#001D3D',
     // 全部产品列表/图标颜色
     T_FRAME_PRODUCTS_COLOR_TEXT_ICON: '#152d4f',
     // 全局左侧收藏栏选中的产品背景色
-    T_FRAME_SIDEBAR_COLOR_BG_ACTIVE: 'rgba(0,0,0,0.3)',
+    T_FRAME_SIDEBAR_COLOR_BG_ACTIVE: '#EBF5FF',
     // 全局左侧收藏栏默认背景色
-    T_FRAME_SIDEBAR_COLOR_BG_DEFAULT: '#1c2e64',
+    T_FRAME_SIDEBAR_COLOR_BG_DEFAULT: '#dfe0f1',
     // 全局左侧收藏栏展开状态背景色
-    T_FRAME_SIDEBAR_COLOR_BG_EXPAND: '#1c2e64',
-    // 全局左侧收藏栏其他入口背景色
-    T_FRAME_SIDEBAR_COLOR_BG_EXTRA: 'linear-gradient(180deg, #355EB9 0%,#1c2e64 100%)',
-    // 全局左侧收藏栏图标色
-    T_FRAME_SIDEBAR_COLOR_ICON_DEFAULT: '#c1d4fa',
-    // 全局左侧收藏栏分割线色
-    T_FRAME_SIDEBAR_COLOR_LINE_DIVIDER: 'rgba(255,255,255,0.12)',
-    // 全局左侧收藏栏子菜单选中背景色
-    T_FRAME_SUBMENU_COLOR_BG_ACTIVE: '#3569E2',
-    // 全局左侧收藏栏子菜单展开状态背景色
-    T_FRAME_SUBMENU_COLOR_BG_EXPAND: 'rgba(0,0,0,0.12)',
-    // 全局左侧收藏栏子菜单Hover背景色
-    T_FRAME_SUBMENU_COLOR_BG_HOVER: 'rgba(255,255,255,0.12)',
+    T_FRAME_SIDEBAR_COLOR_BG_EXPAND: '#ffffff',
     // 顶部导航默认背景色
-    T_FRAME_TOP_COLOR_BG_DEFAULT: '#1c2e64',
+    T_FRAME_TOP_COLOR_BG_DEFAULT: '#002855',
     // 顶部导航hover背景色/Logo背景色
-    T_FRAME_TOP_COLOR_BG_HOVER: 'rgba(0,0,0,0.12)',
+    T_FRAME_TOP_COLOR_BG_HOVER: '#001D3D',
     // 大号控件高度
     T_HEIGHT_LG: '32px',
     // 中号控件高度
@@ -397,9 +385,9 @@ module.exports = {
     // 代码编辑器/读写/背景色/操作
     T_IDE_DEFAULT_COLOR_BG_ACTION: 'rgba(255,255,255,0.12)',
     // 代码编辑器/读写/背景色/默认
-    T_IDE_DEFAULT_COLOR_BG_DEFAULT: '#1c2e64',
+    T_IDE_DEFAULT_COLOR_BG_DEFAULT: '#0a1633',
     // 代码编辑器/只读/背景色/操作
-    T_IDE_READONLY_COLOR_BG_ACTION: 'rgba(10,22,51,0.12)',
+    T_IDE_READONLY_COLOR_BG_ACTION: 'rgba(0,0,0,0.05)',
     // 代码编辑器/只读/背景色/默认
     T_IDE_READONLY_COLOR_BG_DEFAULT: '#f6f6fb',
     // 输入框/背景色/激活
@@ -407,7 +395,7 @@ module.exports = {
     // 输入框/背景色/默认
     T_INPUT_COLOR_BG_DEFAULT: '#fafafc',
     // 输入框/背景色/高亮/默认
-    T_INPUT_COLOR_BG_HL_DEFAULT: '#c1d4fa',
+    T_INPUT_COLOR_BG_HL_DEFAULT: '#BFDCFC',
     // 输入框/背景色/高亮/错误
     T_INPUT_COLOR_BG_HL_ERROR: '#fed4d4',
     // 默认线条，实线
@@ -432,9 +420,9 @@ module.exports = {
     // 右侧计费模块背景
     T_PAY_COLOR_BG_2: '#efeff8',
     // 左侧订单卡片下半段背景
-    T_PAY_COLOR_BG_3: '#eaf1ff',
+    T_PAY_COLOR_BG_3: '#EBF5FF',
     // 弹出层/背景色/暗
-    T_POPOVER_COLOR_BG_DARK: '#1c2e64',
+    T_POPOVER_COLOR_BG_DARK: '#0a1633',
     // 弹出层/背景色/亮
     T_POPOVER_COLOR_BG_LIGHT: '#ffffff',
     // 弹出层/边框/暗
@@ -479,20 +467,20 @@ module.exports = {
     // 块/上/小
     T_SHADOW_BLOCK_TOP_SM: '0 -3px 3px -2px rgba(0,0,0,0.05),0 -8px 6px -6px rgba(0,0,0,0.08)',
     // 按钮/白/默认
-    T_SHADOW_BUTTON_DEFAULT: '0 2px 3px 0 rgba(0,0,0,0.12),inset 0 -2px 0 0 #c1d4fa',
+    T_SHADOW_BUTTON_DEFAULT: '0 2px 3px 0 rgba(0,0,0,0.12),inset 0 -2px 0 0 #BFDCFC',
     // 按钮/错误色/默认
     T_SHADOW_BUTTON_ERROR: '0 1px 3px -1px #f44336',
     // 按钮/错误色/hover
     T_SHADOW_BUTTON_ERROR_HOVER: '0 5px 8px -4px #f44336',
     // 按钮/白/hover
     T_SHADOW_BUTTON_HOVER:
-        '0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05), inset 0 -2px 0 0 #c1d4fa',
+        '0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05), inset 0 -2px 0 0 #BFDCFC',
     // 按钮/品牌色/默认
     T_SHADOW_BUTTON_PRIMARY:
-        '0 2px 4px -1px #4c7be7, inset 0 -3px 0 0 rgba(0,0,0,0.12), inset 0 1px 0 0 rgba(0,0,0,0.12)',
+        '0 2px 4px -1px #0C2847, inset 0 -3px 0 0 rgba(0,0,0,0.12), inset 0 1px 0 0 rgba(0,0,0,0.12)',
     // 按钮/品牌色/hover
     T_SHADOW_BUTTON_PRIMARY_HOVER:
-        '0 5px 8px -4px #4c7be7, inset 0 -3px 0 0 rgba(0,0,0,0.12), inset 0 1px 0 0 rgba(0,0,0,0.12)',
+        '0 5px 8px -4px #0C2847, inset 0 -3px 0 0 rgba(0,0,0,0.12), inset 0 1px 0 0 rgba(0,0,0,0.12)',
     // 内阴影/输入框
     T_SHADOW_INSET_1: 'inset 0 1px 3px 0 #d2d6ea',
     // 内阴影/下
@@ -520,15 +508,15 @@ module.exports = {
     // 骨架屏/背景色/浅色
     T_SKELETON_COLOR_BG_LIGHT: '#f6f6fb',
     // 滑块/背景色/激活
-    T_SLIDER_COLOR_BG_ACTIVE: '#eaf1ff',
+    T_SLIDER_COLOR_BG_ACTIVE: '#EBF5FF',
     // 滑块/背景色/未激活
     T_SLIDER_COLOR_BG_DEFAULT: '#fafafc',
     // 滑块/边框色/激活
-    T_SLIDER_COLOR_LINE_ACTIVE: '#3569E2',
+    T_SLIDER_COLOR_LINE_ACTIVE: '#002855',
     // 滑块/边框色/未激活
     T_SLIDER_COLOR_LINE_DEFAULT: '#c3cad9',
     // 滑块/文本色/激活
-    T_SLIDER_COLOR_TEXT_ACTIVE: '#3569E2',
+    T_SLIDER_COLOR_TEXT_ACTIVE: '#002855',
     // 滑块/文本色/未激活
     T_SLIDER_COLOR_TEXT_DEFAULT: '#7a8baa',
     // 弹窗内表单间纵向间距
@@ -576,11 +564,11 @@ module.exports = {
     // 表格/标题/背景色
     T_TABLE_HEADER_COLOR_BG_DEFAULT: '#ffffff',
     // 表格/标题/icon/颜色
-    T_TABLE_HEADER_COLOR_ICON: '#1c2e64',
+    T_TABLE_HEADER_COLOR_ICON: '#0a1633',
     // 表格/行/背景色
     T_TABLE_ROW_COLOR_BG_DEFAULT: '#f6f6fb',
     // 表格/行/背景色/hover
-    T_TABLE_ROW_COLOR_BG_HOVER: '#eaf0fd',
+    T_TABLE_ROW_COLOR_BG_HOVER: '#DBECFF',
     // 导航切换选中项/背景色
     T_TABS_DEFAULT_COLOR_BG_DEFAULT: '#ebedf5',
     // 导航切换/背景色/hover
@@ -700,13 +688,13 @@ module.exports = {
     // 图例/橙-5
     T_TAG_COLOR_ORANGE_TEXT: '#ff9e42',
     // 背景/纯色/品牌色2
-    T_TAG_COLOR_PRIMARY_BG_DARK: '#355EB9',
+    T_TAG_COLOR_PRIMARY_BG_DARK: '#001D3D',
     // 背景/纯色/品牌色1
-    T_TAG_COLOR_PRIMARY_BG_LIGHT: '#3569E2',
+    T_TAG_COLOR_PRIMARY_BG_LIGHT: '#002855',
     // 线条/主色
-    T_TAG_COLOR_PRIMARY_BORDER: '#3569E2',
+    T_TAG_COLOR_PRIMARY_BORDER: '#002855',
     // 紧凑模式下分割线
-    T_TAG_COLOR_PRIMARY_DIVIDER: '#3569E2',
+    T_TAG_COLOR_PRIMARY_DIVIDER: '#002855',
     // 内置icon/系统白色文本
     T_TAG_COLOR_PRIMARY_ICON: '#ffffff',
     // 系统白色文本

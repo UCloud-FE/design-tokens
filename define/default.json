@@ -672,26 +672,6 @@
                     "type": "color"
                 }
             }
-        },
-        "shadow": {
-            "line": {
-                "right": {
-                    "value": "1px 0 0 0 {color.secondary.secondary_5}",
-                    "comment": "抽屉/页头/背景/线条"
-                },
-                "left": {
-                    "value": "-1px 0 0 0 {color.secondary.secondary_5}",
-                    "comment": "抽屉/页头/背景/线条"
-                },
-                "top": {
-                    "value": "0 1px 0 0 {color.secondary.secondary_5}",
-                    "comment": "抽屉/页头/背景/线条"
-                },
-                "bottom": {
-                    "value": "0 1px 0 0 {color.secondary.secondary_5}",
-                    "comment": "抽屉/页头/背景/线条"
-                }
-            }
         }
     },
     "common": {
@@ -1555,19 +1535,19 @@
             },
             "line": {
                 "right": {
-                    "value": "{shadow.line.right}",
+                    "value": "1px 0 0 0 {color.secondary.secondary_5}",
                     "comment": "抽屉/页头/背景/线条"
                 },
                 "left": {
-                    "value": "{shadow.line.left}",
+                    "value": "-1px 0 0 0 {color.secondary.secondary_5}",
                     "comment": "抽屉/页头/背景/线条"
                 },
                 "top": {
-                    "value": "{shadow.line.top}",
+                    "value": "0 1px 0 0 {color.secondary.secondary_5}",
                     "comment": "抽屉/页头/背景/线条"
                 },
                 "bottom": {
-                    "value": "{shadow.line.bottom}",
+                    "value": "0 1px 0 0 {color.secondary.secondary_5}",
                     "comment": "抽屉/页头/背景/线条"
                 }
             }
@@ -1865,7 +1845,7 @@
                     },
                     "shadow": {
                         "default": {
-                            "value": "{shadow.line.bottom}",
+                            "value": "0 1px 0 0 {color.secondary.secondary_5}",
                             "comment": "抽屉/页头/标题背景/默认/阴影"
                         }
                     }

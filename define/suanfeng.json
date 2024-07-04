@@ -1,0 +1,43 @@
+{
+    "builtin": {
+        "color": {
+            "primary": {
+                "primary_1": {
+                    "value": "#EBF5FF"
+                },
+                "primary_2": {
+                    "value": "#DBECFF"
+                },
+                "primary_3": {
+                    "value": "#BFDCFC"
+                },
+                "primary_6": {
+                    "value": "#204D93"
+                },
+                "primary_7": {
+                    "value": "#0C2847"
+                },
+                "primary_8": {
+                    "value": "#002855"
+                },
+                "primary_9": {
+                    "value": "#001D3D"
+                }
+            },
+            "gradient": {
+                "primary_1_1": {
+                    "value": "#204D93"
+                },
+                "primary_1_2": {
+                    "value": "#001D3D"
+                },
+                "primary_2_1": {
+                    "value": "#2A5CA9"
+                },
+                "primary_2_2": {
+                    "value": "#002855"
+                }
+            }
+        }
+    }
+}
