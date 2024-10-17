@@ -479,6 +479,10 @@
         },
         "spacing": {
             "base": {
+                "none": {
+                    "value": "0px",
+                    "comment": "icon和文本之间的舞间距"
+                },
                 "xs": {
                     "value": "4px",
                     "comment": "icon和文本之间的间距"
@@ -1308,6 +1312,26 @@
                     "value": "{color.assist.green_9}",
                     "comment": "图例/绿-9"
                 }
+            },
+            "mask": {
+                "_meta": {
+                    "group": "蒙层色"
+                },
+                "bg": {
+                    "value": "{transparent(color.base.environment_reverse,50)}",
+                    "comment": "蒙层/背景/抽屉/弹窗",
+                    "type": "color"
+                },
+                "comp": {
+                    "value": "{transparent(color.base.white,50)}",
+                    "comment": "蒙层/组件",
+                    "type": "color"
+                },
+                "overall": {
+                    "value": "{transparent(color.base.white,70)}",
+                    "comment": "蒙层/全局",
+                    "type": "color"
+                }
             }
         },
         "height": {
@@ -1648,6 +1672,184 @@
     },
     "component": {
         "card": {
+            "header": {
+                "padding": {
+                    "top": {
+                        "value": "{spacing.base.xxlg}",
+                        "comment": "标题区域/间距/上"
+                    },
+                    "right": {
+                        "value": "{spacing.base.xxlg}",
+                        "comment": "标题区域/间距/右"
+                    },
+                    "bottom": {
+                        "value": "{spacing.base.none}",
+                        "comment": "标题区域/间距/下"
+                    },
+                    "left": {
+                        "value": "{spacing.base.xxlg}",
+                        "comment": "标题区域/间距/左"
+                    }
+                },
+                "font": {
+                    "size": {
+                        "value": "{typo.font_size.base.font_size_3}",
+                        "comment": "标题/字体大小"
+                    },
+                    "line_height": {
+                        "value": "{typo.line_height.base.lg}",
+                        "comment": "标题/字体行高"
+                    },
+                    "font_weight": {
+                        "value": "{typo.font_weight.base.bold}",
+                        "comment": "标题/字体粗细"
+                    },
+                    "color": {
+                        "default": {
+                            "value": "{color.base.black}",
+                            "comment": "标题/字体颜色"
+                        }
+                    }
+                }
+            },
+            "secondary": {
+                "font": {
+                    "size": {
+                        "value": "{typo.font_size.base.font_size_2}",
+                        "comment": "二级标题/字体大小"
+                    },
+                    "line_height": {
+                        "value": "{typo.line_height.base.lg}",
+                        "comment": "二级标题/字体行高"
+                    },
+                    "font_weight": {
+                        "value": "{typo.font_weight.base.bold}",
+                        "comment": "二级标题/字体粗细"
+                    },
+                    "color": {
+                        "default": {
+                            "value": "{color.base.black}",
+                            "comment": "二级标题/字体颜色"
+                        }
+                    }
+                },
+                "padding": {
+                    "bottom": {
+                        "value": "{spacing.base.lg}",
+                        "comment": "二级标题/间距/下"
+                    }
+                }
+            },
+            "comment": {
+                "font": {
+                    "size": {
+                        "value": "{typo.font_size.base.font_size_1}",
+                        "comment": "卡片描述/字体大小"
+                    },
+                    "line_height": {
+                        "value": "{typo.line_height.base.lg}",
+                        "comment": "卡片描述/字体行高"
+                    },
+                    "font_weight": {
+                        "value": "{typo.font_weight.base.normal}",
+                        "comment": "卡片描述/字体粗细"
+                    },
+                    "color": {
+                        "default": {
+                            "value": "{color.secondary.secondary_9}",
+                            "comment": "卡片描述/字体颜色"
+                        }
+                    }
+                }
+            },
+            "action": {
+                "top": {
+                    "value": "{spacing.base.lg}",
+                    "comment": "操作区/间距/上"
+                },
+                "right": {
+                    "value": "{spacing.base.xxlg}",
+                    "comment": "操作区/间距/右"
+                },
+                "bottom": {
+                    "value": "{spacing.base.none}",
+                    "comment": "操作区/间距/下"
+                },
+                "left": {
+                    "value": "{spacing.base.xxlg}",
+                    "comment": "操作区/间距/左"
+                }
+            },
+            "content": {
+                "bg": {
+                    "default": {
+                        "value": "{color.secondary.secondary_1}",
+                        "comment": "内容区域/背景/Pro组件token"
+                    }
+                },
+                "padding": {
+                    "top": {
+                        "value": "{spacing.base.lg}",
+                        "comment": "内容区域/间距/上"
+                    },
+                    "right": {
+                        "value": "{spacing.base.xxlg}",
+                        "comment": "内容区域/间距/右"
+                    },
+                    "bottom": {
+                        "value": "{spacing.base.none}",
+                        "comment": "内容区域/间距/下"
+                    },
+                    "left": {
+                        "value": "{spacing.base.xxlg}",
+                        "comment": "内容区域/间距/左"
+                    }
+                }
+            },
+            "footer": {
+                "margin": {
+                    "top": {
+                        "value": "{spacing.base.xxlg}",
+                        "comment": "底部/外间距/上"
+                    },
+                    "bottom": {
+                        "value": "{spacing.base.xxlg}",
+                        "comment": "底部/外间距/下"
+                    }
+                },
+                "padding": {
+                    "top": {
+                        "value": "{spacing.base.lg}",
+                        "comment": "底部/间距/上"
+                    },
+                    "right": {
+                        "value": "{spacing.base.xxlg}",
+                        "comment": "底部/间距/右"
+                    },
+                    "bottom": {
+                        "value": "{spacing.base.lg}",
+                        "comment": "底部/间距/下"
+                    },
+                    "left": {
+                        "value": "{spacing.base.xxlg}",
+                        "comment": "底部/间距/左"
+                    }
+                }
+            },
+            "line": {
+                "color": {
+                    "default": {
+                        "value": "{color.secondary.secondary_5}",
+                        "comment": "分割线/线条/提示/浅色"
+                    }
+                },
+                "padding": {
+                    "vertical": {
+                        "value": "{spacing.base.lg}",
+                        "comment": "分割线/subArea/间距/"
+                    }
+                }
+            },
             "color": {
                 "bg": {
                     "default": {
@@ -1695,6 +1897,16 @@
                             "comment": "输入框/背景色/高亮/错误"
                         }
                     }
+                },
+                "shadow": {
+                    "default": {
+                        "value": "inset 0 3px 0 0 {transparent(color.base.environment_reverse,5)}",
+                        "comment": "输入框/阴影/默认"
+                    },
+                    "error": {
+                        "value": "inset 0 1px 3px 0 {color.assist.red_3}",
+                        "comment": "输入框/阴影/错误"
+                    }
                 }
             }
         },
@@ -1733,6 +1945,16 @@
                             "type": "color"
                         }
                     },
+                    "shadow": {
+                        "default": {
+                            "value": "0 2px 4px -1px {color.primary.primary_7}, inset 0 -3px 0 0 {transparent(color.base.environment_reverse,12)}, inset 0 1px 0 0 {transparent(color.base.environment_reverse,12)}",
+                            "comment": "按钮/投影/默认"
+                        },
+                        "hover": {
+                            "value": "0 5px 8px -4px {color.primary.primary_7}, inset 0 -3px 0 0 {transparent(color.base.environment_reverse,12)}, inset 0 1px 0 0 {transparent(color.base.environment_reverse,12)}",
+                            "comment": "按钮/投影/hover"
+                        }
+                    },
                     "text": {
                         "default": {
                             "value": "{color.base.white}",
@@ -1747,8 +1969,73 @@
                     "bg": {
                         "default": {
                             "value": "{color.base.white}",
-                            "comment": "按钮/次/背景色",
+                            "comment": "按钮/次/背景色/默认",
                             "type": "color"
+                        },
+                        "hover": {
+                            "value": "{color.base.white}",
+                            "comment": "按钮/次/背景色/hover",
+                            "type": "color"
+                        }
+                    },
+                    "border": {
+                        "default": {
+                            "value": "{color.secondary.secondary_7}",
+                            "comment": "按钮/次/边框/默认",
+                            "type": "color"
+                        },
+                        "hover": {
+                            "value": "{color.secondary.secondary_5}",
+                            "comment": "按钮/次/边框/hover",
+                            "type": "color"
+                        }
+                    },
+                    "shadow": {
+                        "default": {
+                            "value": "0 2px 3px 0 {transparent(color.base.environment_reverse,12)},inset 0 -2px 0 0 {color.primary.primary_3}",
+                            "comment": "按钮/次/投影/默认"
+                        },
+                        "hover": {
+                            "value": "0 0 1px 0 {transparent(color.base.environment_reverse,12)},0 8px 12px -4px {transparent(color.base.environment_reverse,12)},0 2px 1px -1px {transparent(color.base.environment_reverse,5)}, inset 0 -2px 0 0 {color.primary.primary_3}",
+                            "comment": "按钮/次/投影/hover"
+                        }
+                    }
+                }
+            },
+            "other": {
+                "color": {
+                    "bg": {
+                        "default": {
+                            "value": "{color.secondary.secondary_1}",
+                            "comment": "按钮/备用/背景色/默认",
+                            "type": "color"
+                        },
+                        "hover": {
+                            "value": "{color.base.white}",
+                            "comment": "按钮/备用/背景色/hover",
+                            "type": "color"
+                        }
+                    },
+                    "border": {
+                        "default": {
+                            "value": "{color.secondary.secondary_5}",
+                            "comment": "按钮/备用/边框/默认",
+                            "type": "color"
+                        },
+                        "hover": {
+                            "value": "{color.primary.primary_9}",
+                            "comment": "按钮/备用/边框/hover",
+                            "type": "color"
+                        }
+                    },
+                    "shadow": {
+                        "default": {
+                            "value": "0 0 0 0 {transparent(color.base.environment_reverse,12)},inset 0 0 0 0 {color.primary.primary_3}",
+                            "comment": "按钮/备用/投影/默认"
+                        },
+                        "hover": {
+                            "value": "0 0 0 0 {transparent(color.base.environment_reverse,12)},inset 0 0 0 0 {color.primary.primary_3}",
+                            "comment": "按钮/备用/投影/hover"
                         }
                     }
                 }
@@ -2105,6 +2392,14 @@
                         "value": "{color.secondary.secondary_2}",
                         "comment": "骨架屏/背景色/浅色",
                         "type": "color"
+                    },
+                    "dark1": {
+                        "value": "{transparent(color.base.environment_reverse,50)}",
+                        "comment": "骨架屏/背景色/深色"
+                    },
+                    "light1": {
+                        "value": "{transparent(color.base.environment_reverse,30)}",
+                        "comment": "骨架屏/背景色/浅色"
                     }
                 }
             }
@@ -2551,6 +2846,232 @@
                     "divider": {
                         "value": "{color.assist.cyan_2}",
                         "comment": "紧凑模式下分割线"
+                    }
+                }
+            }
+        },
+        "typography": {
+            "font": {
+                "h1": {
+                    "size": {
+                        "value": "{typo.font_size.base.font_size_6}",
+                        "comment": "一般用于标题，或者特殊场景下的文本展示"
+                    },
+                    "line_height": {
+                        "value": "{typo.line_height.base.lg}",
+                        "comment": "宽松的行高，字号1.7倍"
+                    },
+                    "font_weight": {
+                        "value": "{typo.font_weight.base.bold}",
+                        "comment": "粗体字"
+                    }
+                },
+                "h2": {
+                    "size": {
+                        "value": "{typo.font_size.base.font_size_5}",
+                        "comment": "一般用于标题，或者特殊场景下的文本展示"
+                    },
+                    "line_height": {
+                        "value": "{typo.line_height.base.lg}",
+                        "comment": "宽松的行高，字号1.7倍"
+                    },
+                    "font_weight": {
+                        "value": "{typo.font_weight.base.bold}",
+                        "comment": "粗体字"
+                    }
+                },
+                "h3": {
+                    "size": {
+                        "value": "{typo.font_size.base.font_size_3}",
+                        "comment": "一般用于标题"
+                    },
+                    "line_height": {
+                        "value": "{typo.line_height.base.lg}",
+                        "comment": "宽松的行高，字号1.7倍"
+                    },
+                    "font_weight": {
+                        "value": "{typo.font_weight.base.bold}",
+                        "comment": "粗体字"
+                    }
+                },
+                "h4": {
+                    "size": {
+                        "value": "{typo.font_size.base.font_size_2}",
+                        "comment": "一般用于正文或者小标题"
+                    },
+                    "line_height": {
+                        "value": "{typo.line_height.base.lg}",
+                        "comment": "宽松的行高，字号1.7倍"
+                    },
+                    "font_weight": {
+                        "value": "{typo.font_weight.base.bold}",
+                        "comment": "粗体字"
+                    }
+                },
+                "h5": {
+                    "size": {
+                        "value": "{typo.font_size.base.font_size_1}",
+                        "comment": "一般用于备注/正文，是浏览器识别的最小字号"
+                    },
+                    "line_height": {
+                        "value": "{typo.line_height.base.lg}",
+                        "comment": "宽松的行高，字号1.7倍"
+                    },
+                    "font_weight": {
+                        "value": "{typo.font_weight.base.bold}",
+                        "comment": "粗体字"
+                    }
+                },
+                "text": {
+                    "size": {
+                        "value": "{typo.font_size.base.font_size_1}",
+                        "comment": "一般用于备注/正文，是浏览器识别的最小字号"
+                    },
+                    "line_height": {
+                        "value": "{typo.line_height.base.lg}",
+                        "comment": "宽松的行高，字号1.7倍"
+                    },
+                    "font_weight": {
+                        "value": "{typo.font_weight.base.normal}",
+                        "comment": "默认字体粗细，常规"
+                    }
+                },
+                "paragraph_normal": {
+                    "size": {
+                        "value": "{typo.font_size.base.font_size_1}",
+                        "comment": "一般用于备注/正文，是浏览器识别的最小字号"
+                    },
+                    "line_height": {
+                        "value": "{typo.line_height.base.lg}",
+                        "comment": "宽松的行高，字号1.7倍"
+                    },
+                    "font_weight": {
+                        "value": "{typo.font_weight.base.normal}",
+                        "comment": "默认字体粗细，常规"
+                    }
+                },
+                "paragraph_impact": {
+                    "size": {
+                        "value": "{typo.font_size.base.font_size_1}",
+                        "comment": "一般用于备注/正文，是浏览器识别的最小字号"
+                    },
+                    "line_height": {
+                        "value": "{typo.line_height.base.sm}",
+                        "comment": "宽松的行高，字号1.7倍"
+                    },
+                    "font_weight": {
+                        "value": "{typo.font_weight.base.normal}",
+                        "comment": "默认字体粗细，常规"
+                    }
+                }
+            },
+            "icon": {
+                "link": {
+                    "default": {
+                        "value": "{color.secondary.secondary_7}",
+                        "comment": "排版link中icon的默认颜色",
+                        "type": "color"
+                    },
+                    "hover": {
+                        "value": "{color.primary.primary_9}",
+                        "comment": "排版link中icon的hover颜色",
+                        "type": "color"
+                    }
+                }
+            }
+        },
+        "list": {
+            "header": {
+                "font": {
+                    "size": {
+                        "value": "{typo.font_size.base.font_size_1}",
+                        "comment": "列标题文本/一般用于备注/正文，是浏览器识别的最小字号"
+                    },
+                    "line_height": {
+                        "value": "{typo.line_height.base.lg}",
+                        "comment": "列标题行高/宽松的行高，字号1.7倍"
+                    },
+                    "font_weight": {
+                        "value": "{typo.font_weight.base.normal}",
+                        "comment": "列标题文本加粗状态/默认字体粗细，常规"
+                    },
+                    "color": {
+                        "default": {
+                            "value": "{color.secondary.secondary_9}",
+                            "comment": "列标题文本颜色/文本/常规/浅色"
+                        }
+                    }
+                }
+            },
+            "content": {
+                "font": {
+                    "size": {
+                        "value": "{typo.font_size.base.font_size_1}",
+                        "comment": "列内容文本/一般用于备注/正文，是浏览器识别的最小字号"
+                    },
+                    "line_height": {
+                        "value": "{typo.line_height.base.lg}",
+                        "comment": "列内容行高/宽松的行高，字号1.7倍"
+                    },
+                    "font_weight": {
+                        "value": "{typo.font_weight.base.normal}",
+                        "comment": "列内容文本加粗状态/默认字体粗细，常规"
+                    },
+                    "color": {
+                        "default": {
+                            "value": "{color.base.black}",
+                            "comment": "列内容文本颜色/文本/常规/深色"
+                        },
+                        "remark": {
+                            "value": "{color.secondary.secondary_8}",
+                            "comment": "列内容文本颜色/文本/备注/深色"
+                        }
+                    }
+                }
+            },
+            "item": {
+                "padding": {
+                    "vertical": {
+                        "value": "{spacing.base.sm}",
+                        "comment": "列项内间距/上下间距"
+                    },
+                    "horizonal": {
+                        "value": "0",
+                        "comment": "列项内间距/左右间距"
+                    }
+                }
+            },
+            "outside": {
+                "padding": {
+                    "vertical": {
+                        "value": "0",
+                        "comment": "列项布局间距/上下间距"
+                    },
+                    "horizonal": {
+                        "value": "{spacing.base.xlg}",
+                        "comment": "列项布局间距/左右间距"
+                    }
+                }
+            },
+            "line": {
+                "color": {
+                    "default": {
+                        "value": "{color.secondary.secondary_5}",
+                        "comment": "列分割线/线条/提示/浅色"
+                    }
+                }
+            },
+            "icon": {
+                "link": {
+                    "default": {
+                        "value": "{color.secondary.secondary_7}",
+                        "comment": "排版link中icon的默认颜色",
+                        "type": "color"
+                    },
+                    "hover": {
+                        "value": "{color.primary.primary_9}",
+                        "comment": "排版link中icon的hover颜色",
+                        "type": "color"
                     }
                 }
             }
