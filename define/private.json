@@ -2217,7 +2217,7 @@
                         "comment": "标签边框/透明"
                     },
                     "divider": {
-                        "value": "{color.assist.primary_8}",
+                        "value": "{color.primary.primary_8}",
                         "comment": "紧凑模式下分割线"
                     }
                 },
